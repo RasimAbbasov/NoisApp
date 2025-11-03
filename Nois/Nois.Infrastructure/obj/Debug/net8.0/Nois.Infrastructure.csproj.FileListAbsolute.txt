@@ -1,0 +1,17 @@
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Infrastructure.deps.json
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Infrastructure.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Infrastructure.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Application.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Domain.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Application.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\bin\Debug\net8.0\Nois.Domain.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.AssemblyInfo.cs
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Inf.3BABE08C.Up2Date
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\refint\Nois.Infrastructure.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\ref\Nois.Infrastructure.dll

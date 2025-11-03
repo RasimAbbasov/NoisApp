@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Nois.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Nois.Application": "1.0.0",
+          "Nois.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Nois.Infrastructure.dll": {}
+        }
+      },
+      "Nois.Application/1.0.0": {
+        "dependencies": {
+          "Nois.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Nois.Application.dll": {}
+        }
+      },
+      "Nois.Domain/1.0.0": {
+        "runtime": {
+          "Nois.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nois.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nois.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nois.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

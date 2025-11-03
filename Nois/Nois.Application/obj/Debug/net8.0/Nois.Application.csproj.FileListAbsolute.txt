@@ -1,0 +1,15 @@
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\bin\Debug\net8.0\Nois.Application.deps.json
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\bin\Debug\net8.0\Nois.Application.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\bin\Debug\net8.0\Nois.Application.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.AssemblyInfoInputs.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.AssemblyInfo.cs
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.csproj.CoreCompileInputs.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\refint\Nois.Application.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\ref\Nois.Application.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\bin\Debug\net8.0\Nois.Domain.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\bin\Debug\net8.0\Nois.Domain.pdb
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.csproj.AssemblyReference.cache
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Application\obj\Debug\net8.0\Nois.App.80653CFC.Up2Date

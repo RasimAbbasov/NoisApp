@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nois.Application\Nois.Application.csproj" />
+    <ProjectReference Include="..\Nois.Domain\Nois.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

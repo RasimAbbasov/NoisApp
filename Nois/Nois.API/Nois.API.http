@@ -1,0 +1,6 @@
+@Nois.API_HostAddress = http://localhost:5100
+
+GET {{Nois.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
