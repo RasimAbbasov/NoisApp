@@ -9,3 +9,4 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\N
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\refint\Nois.Domain.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.pdb
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\ref\Nois.Domain.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.sourcelink.json

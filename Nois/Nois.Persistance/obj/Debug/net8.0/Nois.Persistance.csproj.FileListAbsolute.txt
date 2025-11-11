@@ -17,3 +17,4 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Persistance\obj\Debug\net
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Persistance\obj\Debug\net8.0\Nois.Persistance.pdb
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Persistance\obj\Debug\net8.0\Nois.Persistance.genruntimeconfig.cache
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Persistance\obj\Debug\net8.0\ref\Nois.Persistance.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Persistance\obj\Debug\net8.0\Nois.Persistance.sourcelink.json

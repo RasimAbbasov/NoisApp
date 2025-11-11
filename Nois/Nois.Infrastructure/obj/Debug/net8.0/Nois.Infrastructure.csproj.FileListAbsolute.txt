@@ -15,3 +15,4 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\refint\Nois.Infrastructure.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.pdb
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\ref\Nois.Infrastructure.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Infrastructure\obj\Debug\net8.0\Nois.Infrastructure.sourcelink.json
