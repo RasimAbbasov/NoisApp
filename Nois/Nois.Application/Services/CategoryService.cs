@@ -58,7 +58,7 @@ namespace Nois.Application.Services
             if( category == null) throw new KeyNotFoundException();
 
 
-            _mapper.Map(category, categoryDto);
+            _mapper.Map(categoryDto, category);
             category.UpdatedAt = DateTime.UtcNow;
 
             await _categoryRepository.UpdateAsync(category);

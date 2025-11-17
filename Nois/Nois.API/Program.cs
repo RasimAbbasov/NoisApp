@@ -41,6 +41,7 @@ builder.Services.AddAutoMapper(opt =>
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IColorService, ColorService>();
 
 
 var app = builder.Build();

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Nois.Application.DTOs.CategoryDTOs;
+using Nois.Application.DTOs.ColorDtos;
 using Nois.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,8 @@ namespace Nois.Application.Profiles
         {
             CreateMap<CreateCategoryDto, Category>();
             CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<CreateColorDto, Color>();
+            CreateMap<ColorDto,Color>().ReverseMap();
         }
 
     }
