@@ -68,8 +68,12 @@ namespace Nois.Persistance.Repositories
 
         public async Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate)
         {
+            if (predicate == null)
+                throw new ArgumentNullException(nameof(predicate));
+
             return await _dbSet.AnyAsync(predicate);
         }
+
 
         public async Task<int> SaveChangesAsync()
         {

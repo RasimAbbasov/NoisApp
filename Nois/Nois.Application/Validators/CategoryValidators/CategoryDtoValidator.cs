@@ -3,7 +3,7 @@ using Nois.Application.DTOs.CategoryDTOs;
 
 namespace Nois.Application.Validators.CategoryValidators
 {
-    public class CategoryDtoValidator : AbstractValidator<CategoryDto>
+    public class CategoryDtoValidator : AbstractValidator<CategorySummaryDto>
     {
         public CategoryDtoValidator() 
         {

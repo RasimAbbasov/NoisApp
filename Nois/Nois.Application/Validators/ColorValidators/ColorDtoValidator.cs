@@ -3,7 +3,7 @@ using Nois.Application.DTOs.ColorDtos;
 
 namespace Nois.Application.Validators.ColorValidators
 {
-    public class ColorDtoValidator :AbstractValidator<ColorDto>
+    public class ColorDtoValidator :AbstractValidator<ColorSummaryDto>
     {
         public ColorDtoValidator() 
         {

@@ -1,5 +1,7 @@
-using FluentValidation.AspNetCore;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Application.Profiles;
 using Nois.Application.Services;
@@ -45,6 +47,23 @@ builder.Services.AddScoped<IColorService, ColorService>();
 
 
 var app = builder.Build();
+
+app.UseExceptionHandler(config =>
+{
+    config.Run(async context =>
+    {
+        var exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
+
+        if (exception is ConflictException)
+        {
+            context.Response.StatusCode = StatusCodes.Status409Conflict;
+            await context.Response.WriteAsJsonAsync(new { message = exception.Message });
+            return;
+        }
+
+        // digərləri: KeyNotFoundException(404), ArgumentException(400), və s...
+    });
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

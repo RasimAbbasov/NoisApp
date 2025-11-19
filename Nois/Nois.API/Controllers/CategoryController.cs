@@ -48,7 +48,7 @@ namespace Nois.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, CategoryDto dto)
+        public async Task<IActionResult> Update(int id, CategorySummaryDto dto)
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");

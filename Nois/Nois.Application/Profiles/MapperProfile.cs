@@ -12,13 +12,13 @@ namespace Nois.Application.Profiles
         {
             //Category
             CreateMap<CreateCategoryDto, Category>();
-            CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<CategorySummaryDto, Category>().ReverseMap();
             //Color
             CreateMap<CreateColorDto, Color>();
-            CreateMap<ColorDto,Color>().ReverseMap();
+            CreateMap<ColorSummaryDto,Color>().ReverseMap();
             //Size
             CreateMap<CreateSizeDto, Size>();
-            CreateMap<SizeDto,Size>().ReverseMap();
+            CreateMap<SizeSummaryDto,Size>().ReverseMap();
         } 
 
     }

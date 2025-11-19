@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.CategoryDtos;
+using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.SizeDtos;
+using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities;
 using Nois.Persistance.Repositories.Interfaces;
@@ -15,37 +18,52 @@ namespace Nois.Application.Services
             _mapper = mapper;
             _sizeRepository = sizeRepository;
         }
-        public async Task<List<SizeDto>> GetAllAsync()
+        public async Task<List<SizeSummaryDto>> GetAllAsync()
         {
             var sizes = await _sizeRepository.GetAllAsync();
-            var list = _mapper.Map<List<SizeDto>>(sizes);
-            return list;
+            return _mapper.Map<List<SizeSummaryDto>>(sizes);
+           
         }
-        public async Task<SizeDto> GetByIdAsync(int id)
+        public async Task<SizeSummaryDto> GetByIdAsync(int id)
         {
             var size = await _sizeRepository.GetByIdAsync(id);
-            var dto = _mapper.Map<SizeDto>(size);
-            return dto;
+            if (size == null) throw new KeyNotFoundException($"Item with id {id} not found");
+
+            return _mapper.Map<SizeSummaryDto>(size);
         }
         public async Task CreateAsync(CreateSizeDto createSizeDto)
         {
+            if (createSizeDto == null)
+                throw new ArgumentNullException(nameof(createSizeDto));
+
+            var exists = await _sizeRepository.ExistsAsync(x => x.Name == createSizeDto.Name);
+            if (exists)
+                throw new ConflictException("Size with this name already exists.");
+
             var size = _mapper.Map<Size>(createSizeDto);
             size.CreatedAt = DateTime.Now;
             await _sizeRepository.CreateAsync(size);
         }
         public async Task DeleteAsync(int id)
         {
+            if (id <= 0)
+                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
+
             var size = await _sizeRepository.GetByIdAsync(id);
-            if (size == null) throw new KeyNotFoundException();
+            if (size == null) throw new KeyNotFoundException("Size not found.");
             await _sizeRepository.DeleteAsync(size);
         }
-        public async Task UpdateAsync(SizeDto sizeDto)
+        public async Task UpdateAsync(UpdateSizeDto updateSizeDto)
         {
-            var size = await _sizeRepository.GetByIdAsync(sizeDto.Id);
-            if (size == null) throw new KeyNotFoundException();
+            if (updateSizeDto == null) throw new ArgumentNullException(nameof(updateSizeDto));
+            var size = await _sizeRepository.GetByIdAsync(updateSizeDto.Id);
+            if (size == null) throw new KeyNotFoundException("Size not found.");
 
+            var exists = await _sizeRepository.ExistsAsync(x => x.Name == updateSizeDto.Name);
+            if (exists)
+                throw new ConflictException("Size with this name already exists.");
 
-            _mapper.Map(sizeDto, size);
+            _mapper.Map(updateSizeDto, size);
             size.UpdatedAt = DateTime.UtcNow;
 
             await _sizeRepository.UpdateAsync(size);

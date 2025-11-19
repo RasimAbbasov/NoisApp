@@ -10,10 +10,10 @@ namespace Nois.Application.Interfaces
 {
     public interface ISizeService
     {
-        Task<List<SizeDto>> GetAllAsync();
-        Task<SizeDto> GetByIdAsync(int id);
+        Task<List<SizeSummaryDto>> GetAllAsync();
+        Task<SizeSummaryDto> GetByIdAsync(int id);
         Task CreateAsync(CreateSizeDto createSizeDto);
-        Task UpdateAsync(SizeDto sizeDto);
+        Task UpdateAsync(UpdateSizeDto updateSizeDto);
         Task DeleteAsync(int id);
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Nois.Application.DTOs.ColorDtos
 {
-    public class ColorDto
+    public class ColorSummaryDto
     {
         public int Id { get; set; }
         public string Code { get; set; } = default!;   // "BLK"

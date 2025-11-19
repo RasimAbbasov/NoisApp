@@ -42,7 +42,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Color", b =>
@@ -75,7 +75,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Colors", (string)null);
+                    b.ToTable("Colors");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>
@@ -85,6 +85,10 @@ namespace Nois.Persistance.Contexts.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BlobName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -110,7 +114,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
@@ -121,17 +125,47 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ColorId")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
-                    b.Property<int>("ProductId")
+                    b.Property<int>("ProductVariantId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductVariantId");
+
+                    b.ToTable("ProductStocks");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
                     b.Property<int>("SizeId")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -139,10 +173,9 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("SizeId");
 
-                    b.HasIndex("ProductId", "SizeId", "ColorId")
-                        .IsUnique();
+                    b.HasIndex("ProductId", "SizeId", "ColorId");
 
-                    b.ToTable("Stocks", (string)null);
+                    b.ToTable("ProductVariants");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
@@ -175,13 +208,13 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Sizes", (string)null);
+                    b.ToTable("Sizes");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>
                 {
                     b.HasOne("Nois.Domain.Entities.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -190,6 +223,17 @@ namespace Nois.Persistance.Contexts.Migrations
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
+                {
+                    b.HasOne("Nois.Domain.Entities.ProductVariant", "ProductVariant")
+                        .WithMany("ProductStocks")
+                        .HasForeignKey("ProductVariantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductVariant");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
                 {
                     b.HasOne("Nois.Domain.Entities.Color", "Color")
                         .WithMany()
@@ -204,7 +248,7 @@ namespace Nois.Persistance.Contexts.Migrations
                         .IsRequired();
 
                     b.HasOne("Nois.Domain.Entities.Size", "Size")
-                        .WithMany()
+                        .WithMany("Stocks")
                         .HasForeignKey("SizeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -216,7 +260,22 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("Nois.Domain.Entities.Category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("Stocks");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
+                {
+                    b.Navigation("ProductStocks");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
                 {
                     b.Navigation("Stocks");
                 });

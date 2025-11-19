@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nois.Application.DTOs.SizeDtos
 {
-    public class SizeDto
+    public class SizeSummaryDto
     {
         public int Id {  get; set; }
         public string Code { get; set; } 

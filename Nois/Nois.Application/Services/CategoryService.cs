@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
+using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities;
 using Nois.Persistance.Repositories.Interfaces;
@@ -19,46 +21,61 @@ namespace Nois.Application.Services
 
         public async Task CreateAsync(CreateCategoryDto createCategoryDto)
         {
+            if (createCategoryDto == null)
+                throw new ArgumentNullException(nameof(createCategoryDto));
+
+            var exists = await _categoryRepository.ExistsAsync(x => x.Name == createCategoryDto.Name);
+            if (exists)
+                throw new ConflictException("Category with this name already exists.");
+
+
             var category = _mapper.Map<Category>(createCategoryDto);
-            category.CreatedAt = DateTime.Now;
+            category.CreatedAt = DateTime.UtcNow;
 
             await _categoryRepository.CreateAsync(category);
         }
 
+
         public async Task DeleteAsync(int id)
         {
+            if (id <= 0)
+                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
+
             var category = await _categoryRepository.GetByIdAsync(id);
-            if (category == null) throw new KeyNotFoundException();
+            if (category == null) throw new KeyNotFoundException("Category not found.");
 
             await _categoryRepository.DeleteAsync(category);
         }
             
-        public async Task<List<CategoryDto>> GetAllAsync()
+        public async Task<List<CategorySummaryDto>> GetAllAsync()
         {
-            var categories = await _categoryRepository.GetAllAsync(); // Entity Framework Core gore error verir, istifade olunsa Onion arcihecture pozulacaq.
+            var categories = await _categoryRepository.GetAllAsync(); 
 
-            var dtoList = _mapper.Map<List<CategoryDto>>(categories);
+            var dtoList = _mapper.Map<List<CategorySummaryDto>>(categories);
             return dtoList;
 
         }
 
-        public async Task<CategoryDto> GetByIdAsync(int id)
+        public async Task<CategorySummaryDto> GetByIdAsync(int id)
         {
-            var categoryDto = await _categoryRepository.GetByIdAsync(id);
-            if(categoryDto == null) throw new KeyNotFoundException();
+            var category = await _categoryRepository.GetByIdAsync(id);
+            if(category == null) throw new KeyNotFoundException($"Item with id {id} not found");
 
-            var category = _mapper.Map<CategoryDto>(categoryDto);
-
-            return category;
+            return _mapper.Map<CategorySummaryDto>(category);
         }
 
-        public async Task UpdateAsync(CategoryDto categoryDto)
+        public async Task UpdateAsync(UpdateCategoryDto updateCategoryDto)
         {
-            var category = await _categoryRepository.GetByIdAsync(categoryDto.Id);
-            if( category == null) throw new KeyNotFoundException();
+            if(updateCategoryDto == null) throw new ArgumentNullException(nameof(updateCategoryDto));
+            var category = await _categoryRepository.GetByIdAsync(updateCategoryDto.Id);
+            if( category == null) throw new KeyNotFoundException("Category not found.");
+
+            var exists = await _categoryRepository.ExistsAsync(x => x.Name == updateCategoryDto.Name);
+            if (exists)
+                throw new ConflictException("Category with this name already exists.");
 
 
-            _mapper.Map(categoryDto, category);
+            _mapper.Map(updateCategoryDto, category);
             category.UpdatedAt = DateTime.UtcNow;
 
             await _categoryRepository.UpdateAsync(category);

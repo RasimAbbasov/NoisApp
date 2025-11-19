@@ -4,10 +4,10 @@ namespace Nois.Application.Interfaces
 {
     public interface IColorService
     {
-        Task<List<ColorDto>> GetAllAsync();
-        Task<ColorDto> GetByIdAsync(int id);
+        Task<List<ColorSummaryDto>> GetAllAsync();
+        Task<ColorSummaryDto> GetByIdAsync(int id);
         Task CreateAsync(CreateColorDto createColorDto);
-        Task UpdateAsync(ColorDto updateColorDto);
+        Task UpdateAsync(UpdateColorDto updateColorDto);
         Task DeleteAsync(int id);
     }
 }

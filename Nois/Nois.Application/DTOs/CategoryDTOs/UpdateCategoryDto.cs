@@ -1,6 +1,6 @@
-﻿namespace Nois.Application.DTOs.CategoryDTOs
+﻿namespace Nois.Application.DTOs.CategoryDtos
 {
-    public class CategoryDto
+    public class UpdateCategoryDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

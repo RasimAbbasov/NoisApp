@@ -1,13 +1,14 @@
-﻿using Nois.Application.DTOs.CategoryDTOs;
+﻿using Nois.Application.DTOs.CategoryDtos;
+using Nois.Application.DTOs.CategoryDTOs;
 
 namespace Nois.Application.Interfaces
 {
     public interface ICategoryService
     {
-        Task<List<CategoryDto>> GetAllAsync();
-        Task<CategoryDto> GetByIdAsync(int id);
+        Task<List<CategorySummaryDto>> GetAllAsync();
+        Task<CategorySummaryDto> GetByIdAsync(int id);
         Task CreateAsync(CreateCategoryDto createCategoryDto);
-        Task UpdateAsync(CategoryDto categoryDto);
+        Task UpdateAsync(UpdateCategoryDto updateCategoryDto);
         Task DeleteAsync(int id);
     }
 }

@@ -50,7 +50,7 @@ namespace Nois.API.Controllers
             return Ok(new { message = "Color deleted successfully" });
         }
         [HttpPut]
-        public async Task<IActionResult> Update(int id, ColorDto dto)
+        public async Task<IActionResult> Update(int id, ColorSummaryDto dto)
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
