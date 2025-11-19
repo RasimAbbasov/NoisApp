@@ -19,7 +19,7 @@ namespace Nois.API.Controllers
         }
         [HttpGet]
         public async Task<IActionResult> GetAll()
-        {
+        {  
             var colors = await _colorService.GetAllAsync();
             _logger.LogInformation("Color Get endpoint called at {Time}", DateTime.Now);
             return Ok(colors);
@@ -54,7 +54,6 @@ namespace Nois.API.Controllers
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
-
             await _colorService.UpdateAsync(dto);
             _logger.LogInformation("Color Update endpoint called at {Time}", DateTime.Now);
             return NoContent();

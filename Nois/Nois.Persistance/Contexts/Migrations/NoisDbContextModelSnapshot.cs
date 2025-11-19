@@ -42,7 +42,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Color", b =>
@@ -75,7 +75,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Colors");
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>
@@ -110,7 +110,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
@@ -142,7 +142,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("ProductId", "SizeId", "ColorId")
                         .IsUnique();
 
-                    b.ToTable("Stocks");
+                    b.ToTable("Stocks", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
@@ -175,7 +175,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Sizes");
+                    b.ToTable("Sizes", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>

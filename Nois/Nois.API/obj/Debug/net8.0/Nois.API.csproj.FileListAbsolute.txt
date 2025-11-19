@@ -75,7 +75,6 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\refi
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\Nois.API.pdb
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\Nois.API.genruntimeconfig.cache
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\ref\Nois.API.dll
-C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\Nois.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -173,3 +172,4 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\runt
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\obj\Debug\net8.0\Nois.API.MvcApplicationPartsAssemblyInfo.cs

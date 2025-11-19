@@ -12,7 +12,8 @@ namespace Nois.Persistance.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<Size> Sizes { get; set; }
-        public DbSet<ProductStock> Stocks { get; set; }
+        public DbSet<ProductVariant> ProductVariants { get; set; }
+        public DbSet<ProductStock> ProductStocks { get; set; }
         public DbSet<Category> Categories { get; set; }
 
 
@@ -20,9 +21,8 @@ namespace Nois.Persistance.Contexts
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(NoisDbContext).Assembly);
 
-            modelBuilder.Entity<ProductStock>()
-            .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId })
-            .IsUnique();
+            modelBuilder.Entity<ProductVariant>()
+            .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId });
 
             modelBuilder.Entity<Size>()
                 .HasIndex(s => s.Code)

@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
+using Nois.Application.DTOs.SizeDtos;
 using Nois.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nois.Application.Profiles
 {
@@ -14,11 +10,16 @@ namespace Nois.Application.Profiles
     {
         public MapperProfile()
         {
+            //Category
             CreateMap<CreateCategoryDto, Category>();
             CreateMap<CategoryDto, Category>().ReverseMap();
+            //Color
             CreateMap<CreateColorDto, Color>();
             CreateMap<ColorDto,Color>().ReverseMap();
-        }
+            //Size
+            CreateMap<CreateSizeDto, Size>();
+            CreateMap<SizeDto,Size>().ReverseMap();
+        } 
 
     }
 }
