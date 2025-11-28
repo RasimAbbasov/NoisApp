@@ -5,7 +5,7 @@ using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities;
-using Nois.Persistance.Repositories.Interfaces;
+using Nois.Domain.Interfaces;
 
 namespace Nois.Application.Services
 {

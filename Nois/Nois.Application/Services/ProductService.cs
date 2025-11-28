@@ -3,64 +3,97 @@ using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities;
-using Nois.Persistance.Repositories.Interfaces;
+using Nois.Domain.Interfaces;
 
 namespace Nois.Application.Services
 {
     public class ProductService : IProductService
     {
         private readonly IMapper _mapper;
-        private readonly IGenericRepository<Product> _productRepository;
-        public ProductService(IMapper mapper,IGenericRepository<Product> productRepository)
+        private readonly IGenericRepository<Product> _genericRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IBlobStorageService _blobStorageService;
+        private const string containerName = "product-images"; // Define your container name here
+
+        public ProductService(IMapper mapper,IGenericRepository<Product> genericRepository,IProductRepository productRepository,IBlobStorageService blobStorageService)
         {
             _mapper = mapper;
+            _genericRepository = genericRepository;
             _productRepository = productRepository;
+            _blobStorageService = blobStorageService;
         }
 
         public async Task CreateAsync(CreateProductDto createProductDto)
         {
-            //FILE UPLOAD HISSESI YAZILMALIDIR!
-
             if (createProductDto == null)
                 throw new ArgumentNullException(nameof(createProductDto));
 
-            var exists = await _productRepository.ExistsAsync(x => x.Name == createProductDto.Name);
+            var exists = await _genericRepository.ExistsAsync(x => x.Name == createProductDto.Name);
             if (exists)
                 throw new ConflictException("Product with this name already exists.");
 
             var product = _mapper.Map<Product>(createProductDto);
-            product.CreatedAt = DateTime.Now;
-            await _productRepository.CreateAsync(product);
+            product.CreatedAt = DateTime.UtcNow;
+
+            if (createProductDto.ImageFile != null && createProductDto.ImageFile.Length > 0)
+            {
+                product.BlobName = await _blobStorageService.UploadFileAsync(containerName, createProductDto.ImageFile);
+            }
+            await _genericRepository.CreateAsync(product);
         }
+
 
         public async Task DeleteAsync(int id)
         {
-            if (id <= 0)
-                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
-
-            var product = await _productRepository.GetByIdAsync(id);
+            var product = await _genericRepository.GetByIdAsync(id);
             if (product == null) throw new KeyNotFoundException("Product not found.");
 
-            await _productRepository.DeleteAsync(product);
+            await _genericRepository.DeleteAsync(product);
         }
 
         public async Task<List<ProductSummaryDto>> GetAllAsync()
         {
-            var products = await _productRepository.GetAllAsync();
+            var products = await _productRepository.GetAllWithIncludes();
             return _mapper.Map<List<ProductSummaryDto>>(products);
         }
 
         public async Task<ProductSummaryDto> GetByIdAsync(int id)
         {
-            var product = await _productRepository.GetByIdAsync(id);
+            var product = await _productRepository.GetByIdWithIncludes(id);
             if (product == null) throw new KeyNotFoundException($"Item with id {id} not found");
 
             return _mapper.Map<ProductSummaryDto>(product);
         }
 
-        public Task UpdateAsync(UpdateProductDto updateProductDto)
+        public async Task UpdateAsync(UpdateProductDto updateProductDto)
         {
-            throw new NotImplementedException();
+            if (updateProductDto == null)
+                throw new ArgumentNullException(nameof(updateProductDto));
+
+            var entity = await _genericRepository.GetByIdAsync(updateProductDto.Id);
+            if (entity == null)
+                throw new KeyNotFoundException($"Product with ID {updateProductDto.Id} not found.");
+
+            // Exclude current entity from name conflict check
+            var exists = await _genericRepository.ExistsAsync(x => x.Name == updateProductDto.Name && x.Id != updateProductDto.Id);
+            if (exists)
+                throw new ConflictException("Product with this name already exists.");
+
+            // Map the basic properties first (exclude BlobName/ImageFile in mapping)
+            _mapper.Map(updateProductDto, entity);
+
+            // Handle image update
+            if (updateProductDto.ImageFile != null && updateProductDto.ImageFile.Length > 0)
+            {
+                if (!string.IsNullOrEmpty(entity.BlobName))
+                    await _blobStorageService.DeleteFileAsync(containerName, entity.BlobName);
+
+                entity.BlobName = await _blobStorageService.UploadFileAsync(containerName, updateProductDto.ImageFile);
+            }
+
+            entity.UpdatedAt = DateTime.UtcNow;
+
+            await _genericRepository.UpdateAsync(entity);
         }
     }
 }

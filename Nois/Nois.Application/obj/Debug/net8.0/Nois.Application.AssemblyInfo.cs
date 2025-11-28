@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nois.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddb28e8d46439bc2a265a73a35c7852b6fbde96a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c06e99ea5f1b305654c581b0821541c229c3e02e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nois.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nois.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

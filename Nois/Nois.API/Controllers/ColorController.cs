@@ -9,7 +9,7 @@ namespace Nois.API.Controllers
 {
     public class ColorController : BaseController
     {
-        private IColorService _colorService;
+        private readonly IColorService _colorService;
         private readonly ILogger<ColorController> _logger;
 
         public ColorController(IColorService colorService,ILogger<ColorController> logger)
@@ -50,7 +50,7 @@ namespace Nois.API.Controllers
             return Ok(new { message = "Color deleted successfully" });
         }
         [HttpPut]
-        public async Task<IActionResult> Update(int id, ColorSummaryDto dto)
+        public async Task<IActionResult> Update(int id, UpdateColorDto dto)
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");

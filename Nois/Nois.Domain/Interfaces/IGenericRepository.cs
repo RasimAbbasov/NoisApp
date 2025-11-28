@@ -1,7 +1,7 @@
 ﻿using Nois.Domain.Entities.Common;
 using System.Linq.Expressions;
 
-namespace Nois.Persistance.Repositories.Interfaces
+namespace Nois.Domain.Interfaces
 {
     public interface IGenericRepository<T> where T : AuditableEntity
     {

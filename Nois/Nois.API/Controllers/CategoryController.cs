@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.Interfaces;
 
@@ -7,7 +8,7 @@ namespace Nois.API.Controllers
 {
     public class CategoryController : BaseController
     {
-        private ICategoryService _categoryService;
+        private readonly ICategoryService _categoryService;
         private readonly ILogger<CategoryController> _logger;
         public CategoryController(ICategoryService categoryService,ILogger<CategoryController> logger)
         {
@@ -48,7 +49,7 @@ namespace Nois.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, CategorySummaryDto dto)
+        public async Task<IActionResult> Update(int id, UpdateCategoryDto dto)
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");

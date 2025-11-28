@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using Nois.Domain.Entities.Common;
+using Nois.Domain.Interfaces;
 using Nois.Persistance.Contexts;
-using Nois.Persistance.Repositories.Interfaces;
 using System.Linq.Expressions;
 
 namespace Nois.Persistance.Repositories
