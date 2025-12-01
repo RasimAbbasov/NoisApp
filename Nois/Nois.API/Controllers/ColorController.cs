@@ -28,6 +28,8 @@ namespace Nois.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
+            if (id <= 0)
+                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
             var color = await _colorService.GetByIdAsync(id);
             _logger.LogInformation("Color Get endpoint called at {Time}", DateTime.Now);
             if (color == null) return NotFound();
@@ -42,14 +44,17 @@ namespace Nois.API.Controllers
             _logger.LogInformation("Color Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Color created successfully" });
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            if (id <= 0)
+                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
+
             await _colorService.DeleteAsync(id);
             _logger.LogInformation("Color Delete endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Color deleted successfully" });
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, UpdateColorDto dto)
         {
             if (id != dto.Id)

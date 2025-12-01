@@ -3,6 +3,7 @@ using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.DTOs.ProductDtos;
+using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Domain.Entities;
 
@@ -15,28 +16,43 @@ namespace Nois.Application.Profiles
             //Category
             CreateMap<CreateCategoryDto, Category>();
             CreateMap<UpdateCategoryDto, Category>();
-            CreateMap<CategorySummaryDto, Category>().ReverseMap();
+            CreateMap<Category, CategorySummaryDto> ().ReverseMap();
 
             //Color
             CreateMap<CreateColorDto, Color>();
             CreateMap<UpdateColorDto, Color>();
-            CreateMap<ColorSummaryDto,Color>().ReverseMap();
+            CreateMap<Color, ColorSummaryDto> ().ReverseMap();
             //Size
             CreateMap<CreateSizeDto, Size>();
             CreateMap<UpdateSizeDto, Size>();
-            CreateMap<SizeSummaryDto,Size>().ReverseMap();
+            CreateMap<Size, SizeSummaryDto>().ReverseMap();
 
             //Product
-            CreateMap<ProductSummaryDto, Product>().ReverseMap();
+            CreateMap<Product, ProductSummaryDto>().
+                ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name))
+                .ReverseMap();
 
             CreateMap<CreateProductDto, Product>()
                        .ForMember(dest => dest.BlobName, opt => opt.Ignore())// we set BlobName manually
-                       .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
-                       .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+                       .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
+
             CreateMap<UpdateProductDto, Product>()
                      .ForMember(dest => dest.BlobName, opt => opt.Ignore())
-                     .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
                      .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+
+            //ProductVariant
+            CreateMap<ProductVariant, ProductVariantSummaryDto>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name))
+                .ForMember(dest => dest.SizeName, opt => opt.MapFrom(src => src.Size.Name))
+                .ForMember(dest => dest.ColorName, opt => opt.MapFrom(src => src.Color.Name));
+
+            CreateMap<CreateProductVariantDto, ProductVariant>()
+           .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
+
+            CreateMap<UpdateProductVariantDto, ProductVariant>()
+            .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+
+
         }
 
     }

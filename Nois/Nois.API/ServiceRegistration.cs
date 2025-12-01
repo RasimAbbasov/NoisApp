@@ -19,7 +19,7 @@ namespace Nois.API
             // Add services to the container.
 
             services.AddControllers()
-                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateCategoryValidator>());
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateCategoryDtoValidator>());
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
@@ -33,14 +33,17 @@ namespace Nois.API
                 opt.AddProfile(new MapperProfile());
             });
 
-
+            //Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
+
+            //Services
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IColorService, ColorService>();
             services.AddScoped<ISizeService, SizeService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IBlobStorageService,BlobStorageService>();
+            services.AddScoped<IProductVariantService, ProductVariantService>();
         }
     }
 }

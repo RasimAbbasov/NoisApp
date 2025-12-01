@@ -34,9 +34,6 @@ namespace Nois.Application.Services
 
         public async Task DeleteAsync(int id)
         {
-            if (id <= 0)
-                throw new ArgumentException(nameof(id), "Id must be greater than zero."); 
-
             var color = await _colorRepository.GetByIdAsync(id);
             if (color == null) throw new KeyNotFoundException("Color not found");
 

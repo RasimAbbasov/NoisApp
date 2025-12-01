@@ -46,9 +46,6 @@ namespace Nois.Application.Services
         }
         public async Task DeleteAsync(int id)
         {
-            if (id <= 0)
-                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
-
             var size = await _sizeRepository.GetByIdAsync(id);
             if (size == null) throw new KeyNotFoundException("Size not found.");
             await _sizeRepository.DeleteAsync(size);

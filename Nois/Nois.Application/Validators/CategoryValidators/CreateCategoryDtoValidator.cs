@@ -3,9 +3,9 @@ using Nois.Application.DTOs.CategoryDTOs;
 
 namespace Nois.Application.Validators.CategoryValidators
 {
-    public class CreateCategoryValidator: AbstractValidator<CreateCategoryDto>
+    public class CreateCategoryDtoValidator: AbstractValidator<CreateCategoryDto>
     {
-        public CreateCategoryValidator()
+        public CreateCategoryDtoValidator()
         {
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Name is required.")

@@ -3,9 +3,9 @@ using Nois.Application.DTOs.ColorDtos;
 
 namespace Nois.Application.Validators.ColorValidators
 {
-    public class ColorDtoValidator :AbstractValidator<ColorSummaryDto>
+    public class UpdateColorDtoValidator :AbstractValidator<UpdateColorDto>
     {
-        public ColorDtoValidator() 
+        public UpdateColorDtoValidator() 
         {
          RuleFor(x=> x.Name).NotEmpty().WithMessage("Name is Required");
          RuleFor(x => x.Code).NotEmpty().WithMessage("Code is Required");

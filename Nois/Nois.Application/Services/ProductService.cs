@@ -11,16 +11,18 @@ namespace Nois.Application.Services
     {
         private readonly IMapper _mapper;
         private readonly IGenericRepository<Product> _genericRepository;
+        private readonly IGenericRepository<Category> _categoryRepository;
         private readonly IProductRepository _productRepository;
         private readonly IBlobStorageService _blobStorageService;
         private const string containerName = "product-images"; // Define your container name here
 
-        public ProductService(IMapper mapper,IGenericRepository<Product> genericRepository,IProductRepository productRepository,IBlobStorageService blobStorageService)
+        public ProductService(IMapper mapper,IGenericRepository<Product> genericRepository,IProductRepository productRepository,IBlobStorageService blobStorageService,IGenericRepository<Category> categoryRepository)
         {
             _mapper = mapper;
             _genericRepository = genericRepository;
             _productRepository = productRepository;
             _blobStorageService = blobStorageService;
+            _categoryRepository = categoryRepository;
         }
 
         public async Task CreateAsync(CreateProductDto createProductDto)
@@ -28,9 +30,13 @@ namespace Nois.Application.Services
             if (createProductDto == null)
                 throw new ArgumentNullException(nameof(createProductDto));
 
-            var exists = await _genericRepository.ExistsAsync(x => x.Name == createProductDto.Name);
-            if (exists)
+            var nameExists = await _genericRepository.ExistsAsync(x => x.Name == createProductDto.Name);
+            if (nameExists)
                 throw new ConflictException("Product with this name already exists.");
+
+            var categoryExists = await _categoryRepository.ExistsAsync(x => x.Id == createProductDto.CategoryId);
+            if (!categoryExists)
+                throw new KeyNotFoundException($"Category with ID {createProductDto.CategoryId} does not exist.");
 
             var product = _mapper.Map<Product>(createProductDto);
             product.CreatedAt = DateTime.UtcNow;
@@ -75,9 +81,13 @@ namespace Nois.Application.Services
                 throw new KeyNotFoundException($"Product with ID {updateProductDto.Id} not found.");
 
             // Exclude current entity from name conflict check
-            var exists = await _genericRepository.ExistsAsync(x => x.Name == updateProductDto.Name && x.Id != updateProductDto.Id);
-            if (exists)
+            var nameExists = await _genericRepository.ExistsAsync(x => x.Name == updateProductDto.Name && x.Id != updateProductDto.Id);
+            if (nameExists)
                 throw new ConflictException("Product with this name already exists.");
+
+            var categoryExists = await _categoryRepository.ExistsAsync(x => x.Id == updateProductDto.CategoryId);
+            if (!categoryExists)
+                throw new KeyNotFoundException($"Category with ID {updateProductDto.CategoryId} does not exist.");
 
             // Map the basic properties first (exclude BlobName/ImageFile in mapping)
             _mapper.Map(updateProductDto, entity);

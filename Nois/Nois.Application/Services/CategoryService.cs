@@ -38,9 +38,6 @@ namespace Nois.Application.Services
 
         public async Task DeleteAsync(int id)
         {
-            if (id <= 0)
-                throw new ArgumentException(nameof(id), "Id must be greater than zero.");
-
             var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null) throw new KeyNotFoundException("Category not found.");
 

@@ -27,14 +27,15 @@ namespace Nois.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
+            if (id <= 0) throw new ArgumentOutOfRangeException("Id cannot be less than 0.");
+
             var product = await _productService.GetByIdAsync(id);
             _logger.LogInformation("Product Get endpoint called at {Time}", DateTime.Now);
-            if (product == null) return NotFound();
             return Ok(product);
         }
         [HttpPost]
         [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Create([FromForm]CreateProductDto createProductDto)
+        public async Task<IActionResult> Create([FromForm] CreateProductDto createProductDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -43,7 +44,7 @@ namespace Nois.API.Controllers
             _logger.LogInformation("Product Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Product created successfully" });
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
@@ -53,14 +54,14 @@ namespace Nois.API.Controllers
             _logger.LogInformation("Product Delete endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Product deleted successfully" });
         }
-        [HttpPut]
-        public async Task<IActionResult> Update(int id, UpdateProductDto dto)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromForm] UpdateProductDto dto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
             await _productService.UpdateAsync(dto);
             _logger.LogInformation("Product Update endpoint called at {Time}", DateTime.Now);

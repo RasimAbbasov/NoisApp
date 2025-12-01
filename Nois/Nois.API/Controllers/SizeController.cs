@@ -38,14 +38,14 @@ namespace Nois.API.Controllers
             _logger.LogInformation("Size Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Size created successfully" });
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _sizeService.DeleteAsync(id);
             _logger.LogInformation("Size Delete endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Size deleted successfully" });
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, UpdateSizeDto dto)
         {
             if (id != dto.Id)
