@@ -14,7 +14,7 @@ namespace Nois.Persistance.Repositories
             _context = context;
         }
 
-        public async Task<List<Product?>> GetAllWithIncludes()
+        public async Task<List<Product>> GetAllWithIncludes()
         {
             return await _context.Products.Include(x => x.Category).ToListAsync();
         }

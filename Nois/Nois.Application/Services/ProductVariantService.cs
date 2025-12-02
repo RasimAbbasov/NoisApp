@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
-using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
-using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
@@ -11,13 +9,15 @@ namespace Nois.Application.Services
     public class ProductVariantService : IProductVariantService
     {
         public IGenericRepository<ProductVariant> _genericRepository;
+        public IProductVariantRepository _productVariantRepository;
         public IGenericRepository<Color> _colorRepository;
         public IGenericRepository<Product> _productRepository;
         public IGenericRepository<Size> _sizeRepository;
         public IMapper _mapper;
-        public ProductVariantService(IGenericRepository<ProductVariant> genericRepository,IGenericRepository<Color> colorRepository,IGenericRepository<Product> productRepository,IGenericRepository<Size> sizeRepository , IMapper mapper)
+        public ProductVariantService(IGenericRepository<ProductVariant> genericRepository,IProductVariantRepository productVariantRepository,IGenericRepository<Color> colorRepository,IGenericRepository<Product> productRepository,IGenericRepository<Size> sizeRepository , IMapper mapper)
         {
             _genericRepository = genericRepository;
+            _productVariantRepository = productVariantRepository;
             _colorRepository = colorRepository;
             _productRepository = productRepository;
             _sizeRepository = sizeRepository;
@@ -57,13 +57,13 @@ namespace Nois.Application.Services
 
         public async Task<List<ProductVariantSummaryDto>> GetAllAsync()
         {
-            var productVariants = await _genericRepository.GetAllAsync();
+            var productVariants = await _productVariantRepository.GetAllWithIncludes();   
             return _mapper.Map<List<ProductVariantSummaryDto>>(productVariants);
         }
 
         public async Task<ProductVariantSummaryDto> GetByIdAsync(int id)
         {
-            var productVariant = await _genericRepository.GetByIdAsync(id);
+            var productVariant = await _productVariantRepository.GetByIdWithIncludes(id);
             if (productVariant == null) throw new KeyNotFoundException($"Item with id {id} not found");
             return _mapper.Map<ProductVariantSummaryDto>(productVariant);
         }

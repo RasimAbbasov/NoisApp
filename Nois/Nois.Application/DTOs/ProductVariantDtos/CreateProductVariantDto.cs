@@ -1,6 +1,4 @@
-﻿
-
-namespace Nois.Application.DTOs.ProductVariantDtos
+﻿namespace Nois.Application.DTOs.ProductVariantDtos
 {
     public class CreateProductVariantDto
     {

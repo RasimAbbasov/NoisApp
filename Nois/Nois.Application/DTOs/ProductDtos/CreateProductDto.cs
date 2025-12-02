@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Nois.Domain.Entities;
 
 namespace Nois.Application.DTOs.ProductDtos
 {

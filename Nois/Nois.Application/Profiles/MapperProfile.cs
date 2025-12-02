@@ -3,6 +3,7 @@ using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.DTOs.ProductDtos;
+using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Domain.Entities;
@@ -51,6 +52,19 @@ namespace Nois.Application.Profiles
 
             CreateMap<UpdateProductVariantDto, ProductVariant>()
             .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+
+            //ProductStock
+            CreateMap<ProductStock, ProductStockSummaryDto>();
+
+            CreateMap<CreateProductStockDto, ProductStock>()
+            .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
+
+            CreateMap<UpdateProductStockDto,ProductStock>()
+            .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+
+
+
+
 
 
         }
