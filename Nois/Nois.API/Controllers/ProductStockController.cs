@@ -18,7 +18,7 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var productStocks = await _productStockService.GetAllAsync();
-            _logger.LogInformation("ProductStock Get endpoint called at {Time}", DateTime.Now);
+            _logger.LogInformation("ProductStock GetAll endpoint called at {Time}", DateTime.Now);
             return Ok(productStocks);
         }
         [HttpGet("{id}")]
@@ -31,8 +31,7 @@ namespace Nois.API.Controllers
             return Ok(productStocks);
         }
         [HttpPost]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> Create([FromForm] CreateProductStockDto createProductStockDto)
+        public async Task<IActionResult> Create(CreateProductStockDto createProductStockDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -52,7 +51,7 @@ namespace Nois.API.Controllers
             return Ok(new { message = "ProductStock deleted successfully" });
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromForm] UpdateProductStockDto dto)
+        public async Task<IActionResult> Update(int id, UpdateProductStockDto dto)
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");

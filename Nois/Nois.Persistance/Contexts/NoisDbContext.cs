@@ -22,7 +22,7 @@ namespace Nois.Persistance.Contexts
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(NoisDbContext).Assembly);
 
             modelBuilder.Entity<ProductVariant>()
-            .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId });
+            .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId }).IsUnique();
 
             modelBuilder.Entity<Size>()
                 .HasIndex(s => s.Code)

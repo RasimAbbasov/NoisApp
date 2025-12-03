@@ -2,7 +2,6 @@
 using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.Interfaces;
-using Nois.Application.Services;
 
 namespace Nois.API.Controllers
 {
@@ -21,7 +20,14 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var products = await _productService.GetAllAsync();
-            _logger.LogInformation("Product Get endpoint called at {Time}", DateTime.Now);
+            _logger.LogInformation("Product GetAll endpoint called at {Time}", DateTime.Now);
+            return Ok(products);
+        }
+        [HttpGet("detailed")]
+        public async Task<IActionResult> GetAllDetailed()
+        {
+            var products = await _productService.GetAllWithDetails();
+            _logger.LogInformation("Product GetAllDetailed endpoint called at {Time}", DateTime.Now);
             return Ok(products);
         }
         [HttpGet("{id}")]
@@ -32,6 +38,13 @@ namespace Nois.API.Controllers
             var product = await _productService.GetByIdAsync(id);
             _logger.LogInformation("Product Get endpoint called at {Time}", DateTime.Now);
             return Ok(product);
+        }
+        [HttpGet("detailed/{id}")]
+        public async Task<IActionResult> GetDetailed(int id)
+        {
+            var products = await _productService.GetByIdWithDetailsAsync(id);
+            _logger.LogInformation("Product GetDetailed endpoint called at {Time}", DateTime.Now);
+            return Ok(products);
         }
         [HttpPost]
         [Consumes("multipart/form-data")]

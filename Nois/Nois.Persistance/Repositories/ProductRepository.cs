@@ -16,13 +16,23 @@ namespace Nois.Persistance.Repositories
 
         public async Task<List<Product>> GetAllWithIncludes()
         {
-            return await _context.Products.Include(x => x.Category).ToListAsync();
+            return await _context.Products
+                .Include(x => x.Category)
+                .Include(x => x.ProductVariants)
+                    .ThenInclude(x => x.Color)
+                .Include(x => x.ProductVariants)
+                    .ThenInclude(x => x.Size)
+                .ToListAsync();
         }
 
         public async Task<Product?> GetByIdWithIncludes(int id)
         {
             return await _context.Products
                  .Include(x => x.Category)
+                 .Include(x => x.ProductVariants)
+                    .ThenInclude(x => x.Color)
+                 .Include(x => x.ProductVariants)
+                    .ThenInclude(x => x.Size)
                  .FirstOrDefaultAsync(x=>x.Id == id);
         }
     }

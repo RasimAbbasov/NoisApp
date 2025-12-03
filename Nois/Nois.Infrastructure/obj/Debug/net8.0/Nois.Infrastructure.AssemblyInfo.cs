@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nois.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+669ef3dbf83b664e41d2c5b83de11fbfab9c628d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fad0235476cd30761bd8f88307e3dea41bc789af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nois.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nois.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

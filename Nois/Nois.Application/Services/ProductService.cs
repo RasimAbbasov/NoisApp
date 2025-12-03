@@ -62,7 +62,11 @@ namespace Nois.Application.Services
             var products = await _productRepository.GetAllWithIncludes();
             return _mapper.Map<List<ProductSummaryDto>>(products);
         }
-
+        public async Task<List<ProductDetailDto>> GetAllWithDetails()
+        {
+            var products = await _productRepository.GetAllWithIncludes();
+            return _mapper.Map<List<ProductDetailDto>>(products);
+        }
         public async Task<ProductSummaryDto> GetByIdAsync(int id)
         {
             var product = await _productRepository.GetByIdWithIncludes(id);
@@ -70,7 +74,13 @@ namespace Nois.Application.Services
 
             return _mapper.Map<ProductSummaryDto>(product);
         }
+        public async Task<ProductDetailDto> GetByIdWithDetailsAsync(int id)
+        {
+            var product = await _productRepository.GetByIdWithIncludes(id);
+            if (product == null) throw new KeyNotFoundException($"Item with id {id} not found");
 
+            return _mapper.Map<ProductDetailDto>(product);
+        }
         public async Task UpdateAsync(UpdateProductDto updateProductDto)
         {
             if (updateProductDto == null)

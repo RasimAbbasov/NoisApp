@@ -18,7 +18,7 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var Sizes = await _sizeService.GetAllAsync();
-            _logger.LogInformation("Size Get endpoint called at {Time}", DateTime.Now);
+            _logger.LogInformation("Size GetAll endpoint called at {Time}", DateTime.Now);
             return Ok(Sizes);
         }
         [HttpGet("{id}")]

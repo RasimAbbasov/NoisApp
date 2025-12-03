@@ -19,7 +19,7 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var categories = await _categoryService.GetAllAsync();
-            _logger.LogInformation("Category Get endpoint called at {Time}", DateTime.Now);
+            _logger.LogInformation("Category GetAll endpoint called at {Time}", DateTime.Now);
             return Ok(categories);
 
         }

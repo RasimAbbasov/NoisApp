@@ -29,9 +29,17 @@ namespace Nois.Application.Profiles
             CreateMap<Size, SizeSummaryDto>().ReverseMap();
 
             //Product
-            CreateMap<Product, ProductSummaryDto>().
-                ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name))
+            CreateMap<Product, ProductSummaryDto>()
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name))
                 .ReverseMap();
+
+            CreateMap<Product, ProductDetailDto>()
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name))
+                .ForMember(dest => dest.ProductVariantDtos, opt => opt.MapFrom(src => src.ProductVariants));
+
+
+
+
 
             CreateMap<CreateProductDto, Product>()
                        .ForMember(dest => dest.BlobName, opt => opt.Ignore())// we set BlobName manually
@@ -54,7 +62,11 @@ namespace Nois.Application.Profiles
             .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
 
             //ProductStock
-            CreateMap<ProductStock, ProductStockSummaryDto>();
+            CreateMap<ProductStock, ProductStockSummaryDto>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.ProductVariant.Product.Name))
+                .ForMember(dest => dest.ColorName, opt => opt.MapFrom(src => src.ProductVariant.Color.Name))
+                .ForMember(dest => dest.SizeName, opt => opt.MapFrom(src => src.ProductVariant.Size.Name));
+
 
             CreateMap<CreateProductStockDto, ProductStock>()
             .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());

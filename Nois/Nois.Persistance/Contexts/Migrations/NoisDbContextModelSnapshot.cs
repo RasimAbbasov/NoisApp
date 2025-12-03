@@ -139,7 +139,8 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductVariantId");
+                    b.HasIndex("ProductVariantId")
+                        .IsUnique();
 
                     b.ToTable("ProductStocks");
                 });
@@ -173,7 +174,8 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("SizeId");
 
-                    b.HasIndex("ProductId", "SizeId", "ColorId");
+                    b.HasIndex("ProductId", "SizeId", "ColorId")
+                        .IsUnique();
 
                     b.ToTable("ProductVariants");
                 });
@@ -225,8 +227,8 @@ namespace Nois.Persistance.Contexts.Migrations
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
                 {
                     b.HasOne("Nois.Domain.Entities.ProductVariant", "ProductVariant")
-                        .WithMany("ProductStocks")
-                        .HasForeignKey("ProductVariantId")
+                        .WithOne("ProductStock")
+                        .HasForeignKey("Nois.Domain.Entities.ProductStock", "ProductVariantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -242,7 +244,7 @@ namespace Nois.Persistance.Contexts.Migrations
                         .IsRequired();
 
                     b.HasOne("Nois.Domain.Entities.Product", "Product")
-                        .WithMany("Stocks")
+                        .WithMany("ProductVariants")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -267,12 +269,13 @@ namespace Nois.Persistance.Contexts.Migrations
 
             modelBuilder.Entity("Nois.Domain.Entities.Product", b =>
                 {
-                    b.Navigation("Stocks");
+                    b.Navigation("ProductVariants");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
                 {
-                    b.Navigation("ProductStocks");
+                    b.Navigation("ProductStock")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>

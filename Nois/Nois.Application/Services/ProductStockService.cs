@@ -10,11 +10,13 @@ namespace Nois.Application.Services
     public class ProductStockService : IProductStockService
     {
         public IGenericRepository<ProductStock> _genericRepository;
+        public IProductStockRepository _productStockRepository;
         public IGenericRepository<ProductVariant> _productVariantRepository;
         public IMapper _mapper;
-        public ProductStockService(IGenericRepository<ProductStock> genericRepository,IGenericRepository<ProductVariant> productVariantRepository, IMapper mapper)
+        public ProductStockService(IGenericRepository<ProductStock> genericRepository,IProductStockRepository productStockRepository,IGenericRepository<ProductVariant> productVariantRepository, IMapper mapper)
         {
             _genericRepository = genericRepository;
+            _productStockRepository = productStockRepository;
             _productVariantRepository = productVariantRepository;
             _mapper = mapper;
         }
@@ -45,13 +47,13 @@ namespace Nois.Application.Services
 
         public async Task<List<ProductStockSummaryDto>> GetAllAsync()
         {
-          var list = await _genericRepository.GetAllAsync();
+          var list = await _productStockRepository.GetAllWithIncludes();
           return _mapper.Map<List<ProductStockSummaryDto>>(list);
         }
 
         public async Task<ProductStockSummaryDto> GetByIdAsync(int id)
         {
-           var productStock = await _genericRepository.GetByIdAsync(id);
+           var productStock = await _productStockRepository.GetByIdWithIncludes(id);
            if(productStock == null) throw new KeyNotFoundException("ProductStock not found.");
             return _mapper.Map<ProductStockSummaryDto>(productStock);
         }

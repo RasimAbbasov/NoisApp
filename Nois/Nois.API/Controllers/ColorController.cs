@@ -21,7 +21,7 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> GetAll()
         {  
             var colors = await _colorService.GetAllAsync();
-            _logger.LogInformation("Color Get endpoint called at {Time}", DateTime.Now);
+            _logger.LogInformation("Color GetAll endpoint called at {Time}", DateTime.Now);
             return Ok(colors);
 
         }

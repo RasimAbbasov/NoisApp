@@ -37,6 +37,8 @@ namespace Nois.API
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
+            services.AddScoped<IProductStockRepository, ProductStockRepository>();
+
 
             //Services
             services.AddScoped<ICategoryService, CategoryService>();

@@ -10,6 +10,6 @@ namespace Nois.Domain.Entities
         public double Price { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-        public List<ProductVariant> Stocks { get; set; } = new();
+        public List<ProductVariant> ProductVariants { get; set; } = new();
     }
 }
