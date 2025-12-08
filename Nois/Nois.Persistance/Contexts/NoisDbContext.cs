@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Nois.Domain.Entities;
+using Nois.Domain.Entities.Identity;
 
 namespace Nois.Persistance.Contexts
 {
-    public class NoisDbContext : DbContext
+    public class NoisDbContext : IdentityDbContext<AppUser>
     {
         public NoisDbContext(DbContextOptions<NoisDbContext> options) : base(options)
         {
@@ -20,6 +22,7 @@ namespace Nois.Persistance.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(NoisDbContext).Assembly);
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<ProductVariant>()
             .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId }).IsUnique();

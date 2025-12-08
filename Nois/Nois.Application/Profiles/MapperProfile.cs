@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.AuthDtos;
 using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
@@ -7,6 +8,7 @@ using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Domain.Entities;
+using Nois.Domain.Entities.Identity;
 
 namespace Nois.Application.Profiles
 {
@@ -36,9 +38,6 @@ namespace Nois.Application.Profiles
             CreateMap<Product, ProductDetailDto>()
                 .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name))
                 .ForMember(dest => dest.ProductVariantDtos, opt => opt.MapFrom(src => src.ProductVariants));
-
-
-
 
 
             CreateMap<CreateProductDto, Product>()
@@ -74,8 +73,10 @@ namespace Nois.Application.Profiles
             CreateMap<UpdateProductStockDto,ProductStock>()
             .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
 
-
-
+            //User (Check)
+            CreateMap<RegisterDto, AppUser>()
+               .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.UserName ?? src.Email))
+               .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email));
 
 
 

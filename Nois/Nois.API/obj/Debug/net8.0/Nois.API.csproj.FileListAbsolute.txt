@@ -177,3 +177,5 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Azur
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Azure.Storage.Common.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

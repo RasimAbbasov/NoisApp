@@ -1,12 +1,14 @@
 ﻿using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Nois.API;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Application.Profiles;
 using Nois.Application.Services;
 using Nois.Application.Validators.CategoryValidators;
+using Nois.Infrastructure.Services;
 using Nois.Persistance.Contexts;
 using Nois.Persistance.Repositories;
 using Serilog;
@@ -79,8 +81,19 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseRouting(); // Enables endpoint routing
+
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    await RoleSeeder.SeedRolesAsync(services);
+}
 
 app.Run();

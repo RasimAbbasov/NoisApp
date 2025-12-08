@@ -10,3 +10,4 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\r
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.pdb
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\ref\Nois.Domain.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.sourcelink.json
+C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.csproj.AssemblyReference.cache

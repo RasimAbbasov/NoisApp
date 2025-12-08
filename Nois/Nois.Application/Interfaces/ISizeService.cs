@@ -1,10 +1,4 @@
-﻿using Nois.Application.DTOs.CategoryDTOs;
-using Nois.Application.DTOs.SizeDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Nois.Application.DTOs.SizeDtos;
 
 namespace Nois.Application.Interfaces
 {
