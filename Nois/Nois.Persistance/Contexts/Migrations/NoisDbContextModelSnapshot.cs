@@ -175,7 +175,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Color", b =>
@@ -208,7 +208,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Colors");
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Identity.AppUser", b =>
@@ -329,7 +329,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
@@ -357,7 +357,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("ProductVariantId")
                         .IsUnique();
 
-                    b.ToTable("ProductStocks");
+                    b.ToTable("ProductStocks", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
@@ -392,7 +392,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("ProductId", "SizeId", "ColorId")
                         .IsUnique();
 
-                    b.ToTable("ProductVariants");
+                    b.ToTable("ProductVariants", (string)null);
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
@@ -425,7 +425,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Sizes");
+                    b.ToTable("Sizes", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -3,76 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\registerfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\registerfailedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\businessexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\businessexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\emailnotconfirmedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\emailnotconfirmedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\logindisabledexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\logindisabledexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\emailalreadytaken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\emailalreadytaken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\exceptions\\userlockedoutexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\exceptions\\userlockedoutexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\options\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\options\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\registerresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\registerresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\nois.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\nois.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.infrastructure\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\genericresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\simpleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\simpleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\authdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,16 +207,8 @@
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\productstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,14 +257,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\validators\\productstockvalidators\\updateproductstockdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\validators\\productstockvalidators\\updateproductstockdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\dtos\\productstockdtos\\productstocksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,10 +335,6 @@
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\sizedtos\\createsizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\rasim\\onedrive\\desktop\\clothingshop\\nois\\nois.application\\validators\\sizevalidators\\createsizedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\validators\\sizevalidators\\createsizedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -306,7 +370,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -322,196 +386,224 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Program.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Program.cs",
+              "RelativeToolTip": "Nois.API\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwE0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:45:53.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:03:36.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Nois.API\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\ServiceRegistration.cs",
+              "RelativeToolTip": "Nois.API\\ServiceRegistration.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAQwHMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:45:58.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\AuthService.cs",
               "RelativeToolTip": "Nois.Infrastructure\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAA/AAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T13:04:29.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:52:01.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAmwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:31:27.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\RoleSeeder.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\RoleSeeder.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\RoleSeeder.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Services\\RoleSeeder.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wCUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:34:58.59Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\TokenService.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Services\\TokenService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwC0AAAAFAAAA",
+              "Title": "RegisterFailedException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\RegisterFailedException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\RegisterFailedException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\RegisterFailedException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\RegisterFailedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:44:50.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlobStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\BlobStorageService.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\BlobStorageService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\BlobStorageService.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Services\\BlobStorageService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:48:16.434Z"
+              "WhenOpened": "2025-12-10T15:04:40.785Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ColorService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowCMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:54:10.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:16:24.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TokenResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:19:43.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:18:02.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RefreshTokenRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:20:06.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Nois.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:48:16.424Z"
+              "WhenOpened": "2025-12-01T12:48:16.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BusinessException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\BusinessException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\BusinessException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\BusinessException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\BusinessException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:03:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\BusinessExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\BusinessExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\BusinessExceptionMiddleware.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\BusinessExceptionMiddleware.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:03:26.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\GlobalExceptionHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:27:05.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:52:01.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\ConflictException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:13:11.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailNotConfirmedException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\EmailNotConfirmedException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\EmailNotConfirmedException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\EmailNotConfirmedException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\EmailNotConfirmedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:30:53.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Nois.API\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeToolTip": "Nois.API\\ServiceRegistration.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwEsAAAAAAAAA",
+              "Title": "LoginDisabledException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\LoginDisabledException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\LoginDisabledException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\LoginDisabledException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\LoginDisabledException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:45:58.859Z"
+              "WhenOpened": "2025-12-09T13:16:37.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Program.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Program.cs",
-              "RelativeToolTip": "Nois.API\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Title": "InvalidCredentialsException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\InvalidCredentialsException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\InvalidCredentialsException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\InvalidCredentialsException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\InvalidCredentialsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:45:53.198Z"
+              "WhenOpened": "2025-12-09T13:18:08.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "EmailAlreadyTaken.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\EmailAlreadyTaken.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\EmailAlreadyTaken.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\EmailAlreadyTaken.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\EmailAlreadyTaken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:05:30.157Z"
+              "WhenOpened": "2025-12-10T11:53:58.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Options\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\JwtOptions.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Options\\JwtOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:44:34.671Z"
+              "WhenOpened": "2025-12-09T12:31:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserLockedOutException.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\UserLockedOutException.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Exceptions\\UserLockedOutException.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Exceptions\\UserLockedOutException.cs",
+              "RelativeToolTip": "Nois.Application\\Exceptions\\UserLockedOutException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:17:42.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -521,625 +613,272 @@
               "RelativeDocumentMoniker": "Nois.Application\\Profiles\\MapperProfile.cs",
               "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
               "RelativeToolTip": "Nois.Application\\Profiles\\MapperProfile.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAhwEsAAAAZAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwEwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:45:59.632Z"
+              "WhenOpened": "2025-12-02T13:45:59.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Identity\\AppUser.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Identity\\AppUser.cs",
               "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Identity\\AppUser.cs",
               "RelativeToolTip": "Nois.Domain\\Entities\\Identity\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:18:07.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NoisDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:28:12.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GenericResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\GenericResponseDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\GenericResponseDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\GenericResponseDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\GenericResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:26:50.138Z"
+              "WhenOpened": "2025-12-04T10:18:07.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "SimpleResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SimpleResponseDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SimpleResponseDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SimpleResponseDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\SimpleResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:26:11.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:17:43.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:47:07.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ISizeService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ISizeService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\ISizeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T12:48:07.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Nois.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
-              "RelativeDocumentMoniker": "Nois.Domain\\Nois.Domain.csproj",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
-              "RelativeToolTip": "Nois.Domain\\Nois.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T10:45:42.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductStock.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductStock.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\ProductStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:23:09.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductVariantRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:16:04.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:42:44.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductVariantController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductVariantController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductVariantController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:32:41.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBAAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:54:22.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwAMAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:44:29.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductStockController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductStockController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductStockController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T14:35:17.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ColorController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ColorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:39:34.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SizeController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\SizeController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\SizeController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\SizeController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\SizeController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wC8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:39:57.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwEUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T12:44:31.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:33:23.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:51:35.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ProductStockService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:49:57.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T13:26:21.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProductSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:36:07.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ProductVariantService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEEAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:29:50.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:24:07.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ProductVariant.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductVariant.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\ProductVariant.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:23:45.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ProductVariantSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:28:22.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CreateProductStockDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:51:54.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UpdateProductStockDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:54:29.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDEAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:41:06.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\CategoryService.cs",
               "RelativeToolTip": "Nois.Application\\Services\\CategoryService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDEAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwEMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:55:02.296Z"
+              "WhenOpened": "2025-12-01T15:55:02.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "20251203122944_mig_ModifiedProductVariantEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBUAAAAJAAAA",
+              "DocumentIndex": 20,
+              "Title": "ColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:29:44.726Z"
+              "WhenOpened": "2025-12-01T15:54:10.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ProductStockSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "DocumentIndex": 21,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\RoleSeeder.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\RoleSeeder.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\RoleSeeder.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:33:48.784Z"
+              "WhenOpened": "2025-12-04T13:34:58.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "IProductStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "DocumentIndex": 22,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Options\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\EmailSettings.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Options\\EmailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:52:20.474Z"
+              "WhenOpened": "2025-12-10T10:07:31.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "IProductVariantRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 23,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:16:34.15Z"
+              "WhenOpened": "2025-12-01T15:41:06.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "DocumentIndex": 24,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:15:12.471Z"
+              "WhenOpened": "2025-12-04T12:17:43.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "UpdateProductVariantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "DocumentIndex": 25,
+              "Title": "RegisterResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterResultDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\RegisterResultDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RegisterResultDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\RegisterResultDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:30:25.691Z"
+              "WhenOpened": "2025-12-10T11:10:28.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "UpdateProductStockDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "DocumentIndex": 26,
+              "Title": "NoisDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:33:27.088Z"
+              "WhenOpened": "2025-12-03T12:28:12.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IProductStockService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductStockService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductStockService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "DocumentIndex": 27,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:29:22.597Z"
+              "WhenOpened": "2025-12-09T14:09:16.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 28,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwB4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:28:34.497Z"
+              "WhenOpened": "2025-12-04T12:44:50.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "CreateProductVariantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
+              "DocumentIndex": 29,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:26:46.213Z"
+              "WhenOpened": "2025-12-04T12:18:02.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "CreateProductStockDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "20251210104605_mig_AddedUsernamePropertyToAppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251210104605_mig_AddedUsernamePropertyToAppUser.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:32:57.597Z"
+              "WhenOpened": "2025-12-10T10:46:05.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "UpdateProductVariantDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Nois.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\appsettings.json",
+              "RelativeToolTip": "Nois.API\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T14:13:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\TokenResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:25:37.008Z"
+              "WhenOpened": "2025-12-04T12:19:43.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "CreateProductVariantDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\AuthDtos\\RefreshTokenRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:22:57.447Z"
+              "WhenOpened": "2025-12-04T12:20:06.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "SizeService.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\SizeService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\SizeService.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\SizeService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\SizeService.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "DocumentIndex": 34,
+              "Title": "Nois.API.http",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.http",
+              "RelativeDocumentMoniker": "Nois.API\\Nois.API.http",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.http",
+              "RelativeToolTip": "Nois.API\\Nois.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-10T10:07:35.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Options\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:54:44.084Z"
+              "WhenOpened": "2025-12-04T12:44:34.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "CreateProductDtoValidators.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAAABAAAA",
+              "DocumentIndex": 36,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\SizeController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\SizeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:07:56.435Z"
+              "WhenOpened": "2025-12-01T13:39:57.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "UpdateProductDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
-              "RelativeToolTip": "Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABnAAAA",
+              "DocumentIndex": 37,
+              "Title": "BlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\BlobStorageService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\BlobStorageService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Services\\BlobStorageService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\BlobStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:20:12.341Z"
+              "WhenOpened": "2025-12-01T12:48:16.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "UpdateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:31:40.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "UpdateSizeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:31:23.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "SizeSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:29:50.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "CreateSizeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
-              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:27:17.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 38,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\BaseController.cs",
@@ -1151,7 +890,559 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T12:16:24.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251205110530_mig_UpdatedRefreshTokenPropertyAsNullable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:05:30.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GenericResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\GenericResponseDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\GenericResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\GenericResponseDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\GenericResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:26:50.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SimpleResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SimpleResponseDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SimpleResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SimpleResponseDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\SimpleResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:26:11.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:47:07.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ISizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ISizeService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\ISizeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:48:07.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Nois.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
+              "RelativeDocumentMoniker": "Nois.Domain\\Nois.Domain.csproj",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
+              "RelativeToolTip": "Nois.Domain\\Nois.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T10:45:42.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductStock.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductStock.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\ProductStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:23:09.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductVariantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:16:04.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:42:44.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductVariantController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductVariantController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductVariantController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:32:41.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:54:22.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:44:29.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductStockController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductStockController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductStockController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:35:17.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwEUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:44:31.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:33:23.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:51:35.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProductStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:49:57.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ProductDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:26:21.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:36:07.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductVariantService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:29:50.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:24:07.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductVariant.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\ProductVariant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:23:45.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProductVariantSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\ProductVariantSummaryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:28:22.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CreateProductStockDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductStockValidators\\CreateProductStockDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:51:54.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateProductStockDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductStockValidators\\UpdateProductStockDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:54:29.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20251203122944_mig_ModifiedProductVariantEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251203122944_mig_ModifiedProductVariantEntity.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:29:44.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProductStockSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\ProductStockSummaryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:33:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IProductStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:52:20.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IProductVariantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:16:34.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:15:12.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UpdateProductVariantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\UpdateProductVariantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:30:25.691Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 68,
+              "Title": "UpdateProductStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\UpdateProductStockDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:33:27.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IProductStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductStockService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductStockService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:29:22.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:28:34.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CreateProductVariantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductVariantDtos\\CreateProductVariantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:26:46.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CreateProductStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductStockDtos\\CreateProductStockDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:32:57.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "UpdateProductVariantDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductVariantValidators\\UpdateProductVariantDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:25:37.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CreateProductVariantDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductVariantValidators\\CreateProductVariantDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T13:22:57.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\SizeService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\SizeService.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Services\\SizeService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\SizeService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:54:44.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CreateProductDtoValidators.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductValidators\\CreateProductDtoValidators.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:07:56.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "UpdateProductDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\ProductValidators\\UpdateProductDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:20:12.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:31:40.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UpdateSizeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\UpdateSizeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:31:23.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SizeSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\SizeSummaryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:29:50.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CreateSizeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
+              "ToolTip": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\SizeDtos\\CreateSizeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T15:27:17.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
               "Title": "UpdateSizeDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\SizeValidators\\UpdateSizeDtoValidator.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Validators\\SizeValidators\\UpdateSizeDtoValidator.cs",
@@ -1163,7 +1454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 83,
               "Title": "CreateSizeDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\SizeValidators\\CreateSizeDtoValidator.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Validators\\SizeValidators\\CreateSizeDtoValidator.cs",
@@ -1175,7 +1466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 85,
               "Title": "CreateColorDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ColorValidators\\CreateColorDtoValidator.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Validators\\ColorValidators\\CreateColorDtoValidator.cs",
@@ -1187,7 +1478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 86,
               "Title": "UpdateColorDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\ColorValidators\\UpdateColorDtoValidator.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Validators\\ColorValidators\\UpdateColorDtoValidator.cs",
@@ -1199,7 +1490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 87,
               "Title": "UpdateCategoryDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Validators\\CategoryValidators\\UpdateCategoryDtoValidator.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Validators\\CategoryValidators\\UpdateCategoryDtoValidator.cs",

@@ -74,12 +74,7 @@ namespace Nois.Application.Profiles
             .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
 
             //User (Check)
-            CreateMap<RegisterDto, AppUser>()
-               .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.UserName ?? src.Email))
-               .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email));
-
-
-
+            CreateMap<RegisterDto, AppUser>();
         }
 
     }

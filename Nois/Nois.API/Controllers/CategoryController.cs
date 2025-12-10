@@ -16,7 +16,6 @@ namespace Nois.API.Controllers
             _categoryService = categoryService;
             _logger = logger;
         }
-        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -25,7 +24,6 @@ namespace Nois.API.Controllers
             return Ok(categories);
 
         }
-        [Authorize]
         [HttpGet("{id}")]
          public async Task<IActionResult> Get(int id)
         {

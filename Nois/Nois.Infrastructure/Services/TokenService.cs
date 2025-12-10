@@ -22,6 +22,7 @@ public class TokenService : ITokenService
         var authClaims = new List<Claim>
         {
             new Claim(ClaimTypes.NameIdentifier, user.Id),
+            //new Claim(ClaimTypes.Name, user.FirstName ?? ""),
             new Claim(ClaimTypes.Name, user.UserName ?? user.Email ?? ""),
             new Claim(ClaimTypes.Email, user.Email ?? ""),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
@@ -34,7 +35,8 @@ public class TokenService : ITokenService
 
         var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtOptions.Key));
 
-        var token = new JwtSecurityToken(
+        var token = new JwtSecurityToken
+        (
             issuer: _jwtOptions.Issuer,
             audience: _jwtOptions.Audience,
             expires: DateTime.UtcNow.AddMinutes(_jwtOptions.AccessTokenMinutes),

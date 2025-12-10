@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CCWrDmG3ues=",
+  "dgSpecHash": "UmP3guMzVlU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,11 @@
     "C:\\Users\\Rasim\\.nuget\\packages\\azure.core\\1.47.3\\azure.core.1.47.3.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\azure.storage.blobs\\12.26.0\\azure.storage.blobs.12.26.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\azure.storage.common\\12.25.0\\azure.storage.common.12.25.0.nupkg.sha512",
+    "C:\\Users\\Rasim\\.nuget\\packages\\bouncycastle.cryptography\\2.6.1\\bouncycastle.cryptography.2.6.1.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "C:\\Users\\Rasim\\.nuget\\packages\\mailkit\\4.14.1\\mailkit.4.14.1.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.0.nupkg.sha512",
@@ -34,10 +36,13 @@
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\Rasim\\.nuget\\packages\\mimekit\\4.14.0\\mimekit.4.14.0.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\system.clientmodel\\1.6.1\\system.clientmodel.1.6.1.nupkg.sha512",
+    "C:\\Users\\Rasim\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "C:\\Users\\Rasim\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
-    "C:\\Users\\Rasim\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512"
+    "C:\\Users\\Rasim\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
+    "C:\\Users\\Rasim\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
   ],
   "logs": [
     {

@@ -1,62 +1,84 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Nois.Application.DTOs.AuthDtos;
+using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities.Identity;
 using Nois.Infrastructure.Options;
+using System.Web;
 
 namespace Nois.Infrastructure.Services
 {
     public class AuthService : IAuthService
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly IConfiguration _config;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
+        private readonly IEmailService _emailService;
         private readonly JwtOptions _jwt;
         private readonly IMapper _mapper;
 
-        public AuthService(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,ITokenService tokenService,IOptions<JwtOptions> jwtOptions,IMapper mapper)
+        public AuthService(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,IConfiguration config,ITokenService tokenService,IEmailService emailService,IOptions<JwtOptions> jwtOptions,IMapper mapper)
         {
             _userManager = userManager;
             _mapper = mapper;
+            _config = config;
             _signInManager = signInManager;
+            _emailService = emailService;
             _tokenService = tokenService;
             _jwt = jwtOptions.Value;
         }
 
-        public async Task<string[]> RegisterAsync(RegisterDto dto)
+        // Check Register Method
+        public async Task<RegisterResultDto> RegisterAsync(RegisterDto dto)
         {
             var existingUser = await _userManager.FindByEmailAsync(dto.Email);
             if (existingUser != null)
-                return new[] { "Email already in use" };
+                throw new EmailAlreadyTaken();
 
-            var user = _mapper.Map<AppUser>(dto); // AutoMapper used
+            var user = _mapper.Map<AppUser>(dto);
 
             var result = await _userManager.CreateAsync(user, dto.Password);
 
             if (!result.Succeeded)
-                return result.Errors.Select(e => e.Description).ToArray();
+                throw new RegisterFailedException(result.Errors);
+
 
             await _userManager.AddToRoleAsync(user, "User");
 
-            return Array.Empty<string>();
+            var origin = _config["Frontend:BaseUrl"];
+            await SendEmailVerificationAsync(user, origin);
+
+            return new RegisterResultDto { Success = true };
         }
 
 
-        //CHECK OTHER METHODS //WRITE CHECKING CASES
+
+        //CHECK OTHER METHODS //WRITE CHECKING CASES Handle if cases
         public async Task<TokenResponseDto?> LoginAsync(LoginDto dto)
         {
             var user = await _userManager.FindByEmailAsync(dto.Email);
             if (user == null)
-                return null;
+                throw new UserNotFoundException();
 
             if (!user.EmailConfirmed) // WRITE CUSTOM EXCEPTION
-                return null;
+                throw new EmailNotConfirmedException();
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, true);
+
+            if (result.IsLockedOut)
+              //User is locked out (too many failed attempts)
+                throw new UserLockedOutException(); // Create this custom exception
+
+            if (result.IsNotAllowed)
+              //Login disabled (e.g., account requires MFA or is disabled by admin)
+                throw new LoginDisabledException();
+
             if (!result.Succeeded)
-                return null;
+                throw new InvalidCredentialsException();
 
             var roles = await _userManager.GetRolesAsync(user);
             var accessToken = _tokenService.GenerateAccessToken(user, roles);
@@ -112,6 +134,28 @@ namespace Nois.Infrastructure.Services
 
             await _userManager.UpdateAsync(user);
             return true;
+        }
+
+        public async Task SendEmailVerificationAsync(AppUser user, string origin)
+        {
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var encodedToken = HttpUtility.UrlEncode(token);
+
+            var callbackUrl = $"{origin}/verify-email?userId={user.Id}&token={encodedToken}";
+
+            await _emailService.SendEmailConfirmationAsync(user.Email, callbackUrl);
+        }
+
+        public async Task<bool> VerifyEmailAsync(string userId, string token)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+                throw new UserNotFoundException();
+
+            var decodedToken = HttpUtility.UrlDecode(token);
+
+            var result = await _userManager.ConfirmEmailAsync(user, decodedToken);
+            return result.Succeeded;
         }
     }
 }

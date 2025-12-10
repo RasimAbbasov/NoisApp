@@ -15,6 +15,9 @@ using Nois.Infrastructure.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Diagnostics;
+using Nois.Application.Exceptions;
+using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace Nois.API
 {
@@ -31,7 +34,7 @@ namespace Nois.API
             services.AddEndpointsApiExplorer();
 
             services.AddSwaggerGen(c => {
-                c.SwaggerDoc("v1", new() { Title = "FireCup API", Version = "v1" });
+                c.SwaggerDoc("v1", new() { Title = "Nois API", Version = "v1" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
@@ -70,7 +73,7 @@ namespace Nois.API
                 opt.Password.RequireUppercase = true;
                 opt.Lockout.MaxFailedAccessAttempts = 5;
                 opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
-                opt.SignIn.RequireConfirmedEmail = false;
+                opt.SignIn.RequireConfirmedEmail = true;
                 opt.Lockout.AllowedForNewUsers = true;
 
 
@@ -81,6 +84,9 @@ namespace Nois.API
 
             var jwtSection = configuration.GetSection("Jwt");
             services.Configure<JwtOptions>(jwtSection);
+            //Email Settings
+            services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
+
 
             var jwtOptions = jwtSection.Get<JwtOptions>();
             var key = Encoding.UTF8.GetBytes(jwtOptions.Key);
@@ -107,6 +113,8 @@ namespace Nois.API
                 };
             });
 
+        
+
             //Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
@@ -124,7 +132,7 @@ namespace Nois.API
             services.AddScoped<IProductStockService, ProductStockService>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IAuthService, AuthService>();
-
+            services.AddScoped<IEmailService, EmailService>();
         }
     }
 }

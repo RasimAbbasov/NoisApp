@@ -51,26 +51,17 @@ ServiceRegistration.RegisterServices(builder.Services, builder.Configuration);
 //builder.Services.AddScoped<ISizeService, SizeService>();
 //builder.Services.AddScoped<IProductService, ProductService>();
 
+// 1. Register the custom API handler
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+// 2. Add services for standardized Problem Details responses
+builder.Services.AddProblemDetails();
 
 
 var app = builder.Build();
 
-app.UseExceptionHandler(config =>
-{
-    config.Run(async context =>
-    {
-        var exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
+app.UseExceptionHandler();
 
-        if (exception is ConflictException)
-        {
-            context.Response.StatusCode = StatusCodes.Status409Conflict;
-            await context.Response.WriteAsJsonAsync(new { message = exception.Message });
-            return;
-        }
-
-        // digərləri: KeyNotFoundException(404), ArgumentException(400), və s...
-    });
-});
+app.UseMiddleware<BusinessExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -83,17 +74,16 @@ app.UseHttpsRedirection();
 
 app.UseRouting(); // Enables endpoint routing
 
-
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    await RoleSeeder.SeedRolesAsync(services);
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var services = scope.ServiceProvider;
+//    await RoleSeeder.SeedRolesAsync(services);
+//}
 
 app.Run();

@@ -47,7 +47,7 @@ namespace Nois.Application.Services
         public async Task<List<CategorySummaryDto>> GetAllAsync()
         {
             var categories = await _categoryRepository.GetAllAsync(); 
-
+    
             var dtoList = _mapper.Map<List<CategorySummaryDto>>(categories);
             return dtoList;
 

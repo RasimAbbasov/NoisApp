@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.AuthDtos;
+using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using System.Security.Claims;
 
@@ -19,7 +20,7 @@ namespace Nois.API.Controllers
         public async Task<IActionResult> Register(RegisterDto dto)
         {
             var errors = await _authService.RegisterAsync(dto);
-            if (errors.Any())
+            if (errors.Errors.Any())
                 return BadRequest(errors);
 
             return Ok("User registered successfully");
@@ -55,6 +56,16 @@ namespace Nois.API.Controllers
 
             await _authService.LogoutAsync(userId);
             return Ok("Logged out");
+        }
+
+        [HttpGet("verify-email")]
+        public async Task<IActionResult> VerifyEmail(string userId, string token)
+        {
+            var success = await _authService.VerifyEmailAsync(userId, token);
+            if (!success)
+                return BadRequest("Email verification failed");
+
+            return Ok("Email successfully verified");
         }
     }
 }

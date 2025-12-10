@@ -1,0 +1,10 @@
+﻿using Microsoft.AspNetCore.Http;
+
+namespace Nois.Application.Exceptions
+{
+    public class UserNotFoundException : BusinessException
+    {
+        public UserNotFoundException() : base("User not found.", StatusCodes.Status404NotFound) { }
+
+    }
+}
