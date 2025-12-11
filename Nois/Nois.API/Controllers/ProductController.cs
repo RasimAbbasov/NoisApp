@@ -50,9 +50,6 @@ namespace Nois.API.Controllers
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> Create([FromForm] CreateProductDto createProductDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             await _productService.CreateAsync(createProductDto);
             _logger.LogInformation("Product Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Product created successfully" });
@@ -72,9 +69,6 @@ namespace Nois.API.Controllers
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
 
             await _productService.UpdateAsync(dto);
             _logger.LogInformation("Product Update endpoint called at {Time}", DateTime.Now);

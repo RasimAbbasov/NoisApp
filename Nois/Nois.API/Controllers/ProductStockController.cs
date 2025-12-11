@@ -33,9 +33,6 @@ namespace Nois.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateProductStockDto createProductStockDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             await _productStockService.CreateAsync(createProductStockDto);
             _logger.LogInformation("ProductStock Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "ProductStock created successfully" });
@@ -55,9 +52,6 @@ namespace Nois.API.Controllers
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
 
             await _productStockService.UpdateAsync(dto);
             _logger.LogInformation("ProductStock Update endpoint called at {Time}", DateTime.Now);

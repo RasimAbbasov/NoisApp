@@ -33,9 +33,6 @@ namespace Nois.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateProductVariantDto createProductVariantDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             await _productVariantService.CreateAsync(createProductVariantDto);
             _logger.LogInformation("ProductVariant Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "ProductVariant created successfully" });
@@ -55,9 +52,6 @@ namespace Nois.API.Controllers
         {
             if (id != dto.Id)
                 return BadRequest("ID mismatch.");
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
 
             await _productVariantService.UpdateAsync(dto);
             _logger.LogInformation("ProductVariant Update endpoint called at {Time}", DateTime.Now);

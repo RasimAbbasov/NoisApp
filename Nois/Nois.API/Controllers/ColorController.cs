@@ -38,8 +38,6 @@ namespace Nois.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateColorDto createColorDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             await _colorService.CreateAsync(createColorDto);
             _logger.LogInformation("Color Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Color created successfully" });

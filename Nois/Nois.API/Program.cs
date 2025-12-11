@@ -51,10 +51,7 @@ ServiceRegistration.RegisterServices(builder.Services, builder.Configuration);
 //builder.Services.AddScoped<ISizeService, SizeService>();
 //builder.Services.AddScoped<IProductService, ProductService>();
 
-// 1. Register the custom API handler
-builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
-// 2. Add services for standardized Problem Details responses
-builder.Services.AddProblemDetails();
+
 
 
 var app = builder.Build();

@@ -32,8 +32,6 @@ namespace Nois.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateSizeDto createSizeDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             await _sizeService.CreateAsync(createSizeDto);
             _logger.LogInformation("Size Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Size created successfully" });

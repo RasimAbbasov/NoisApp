@@ -78,7 +78,8 @@ namespace Nois.API
 
 
                 opt.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
-            }).AddEntityFrameworkStores<NoisDbContext>().AddDefaultTokenProviders();
+            }).AddEntityFrameworkStores<NoisDbContext>()
+            .AddDefaultTokenProviders();
 
             // JWT Auth
 
@@ -90,6 +91,8 @@ namespace Nois.API
 
             var jwtOptions = jwtSection.Get<JwtOptions>();
             var key = Encoding.UTF8.GetBytes(jwtOptions.Key);
+
+            services.Configure<FrontendBaseUrlOptions>(configuration.GetSection(FrontendBaseUrlOptions.FrontendBaseUrl));
 
             services.AddAuthentication(options =>
             {
@@ -113,7 +116,10 @@ namespace Nois.API
                 };
             });
 
-        
+            // 1. Register the custom API handler
+            services.AddExceptionHandler<GlobalExceptionHandler>();
+            // 2. Add services for standardized Problem Details responses
+            services.AddProblemDetails();
 
             //Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

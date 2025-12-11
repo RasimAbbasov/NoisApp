@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Nois.Application.DTOs.AuthDtos;
@@ -7,6 +8,7 @@ using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
 using Nois.Domain.Entities.Identity;
 using Nois.Infrastructure.Options;
+using System.Text;
 using System.Web;
 
 namespace Nois.Infrastructure.Services
@@ -14,18 +16,19 @@ namespace Nois.Infrastructure.Services
     public class AuthService : IAuthService
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly IConfiguration _config;
+        private readonly FrontendBaseUrlOptions _frontendOptions;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
         private readonly IEmailService _emailService;
         private readonly JwtOptions _jwt;
         private readonly IMapper _mapper;
 
-        public AuthService(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,IConfiguration config,ITokenService tokenService,IEmailService emailService,IOptions<JwtOptions> jwtOptions,IMapper mapper)
+        public AuthService(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,IConfiguration config, IOptions<FrontendBaseUrlOptions> frontendOptions, ITokenService tokenService,IEmailService emailService,IOptions<JwtOptions> jwtOptions,IMapper mapper)
         {
+
             _userManager = userManager;
             _mapper = mapper;
-            _config = config;
+            _frontendOptions = frontendOptions.Value;
             _signInManager = signInManager;
             _emailService = emailService;
             _tokenService = tokenService;
@@ -42,14 +45,15 @@ namespace Nois.Infrastructure.Services
             var user = _mapper.Map<AppUser>(dto);
 
             var result = await _userManager.CreateAsync(user, dto.Password);
-
+           
             if (!result.Succeeded)
                 throw new RegisterFailedException(result.Errors);
 
 
             await _userManager.AddToRoleAsync(user, "User");
 
-            var origin = _config["Frontend:BaseUrl"];
+            var origin = _frontendOptions.BaseUrl;
+
             await SendEmailVerificationAsync(user, origin);
 
             return new RegisterResultDto { Success = true };
@@ -139,8 +143,7 @@ namespace Nois.Infrastructure.Services
         public async Task SendEmailVerificationAsync(AppUser user, string origin)
         {
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            var encodedToken = HttpUtility.UrlEncode(token);
-
+            var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
             var callbackUrl = $"{origin}/verify-email?userId={user.Id}&token={encodedToken}";
 
             await _emailService.SendEmailConfirmationAsync(user.Email, callbackUrl);
@@ -152,10 +155,26 @@ namespace Nois.Infrastructure.Services
             if (user == null)
                 throw new UserNotFoundException();
 
-            var decodedToken = HttpUtility.UrlDecode(token);
+            var tokenBytes = WebEncoders.Base64UrlDecode(token);
+            var decodedToken = Encoding.UTF8.GetString(tokenBytes);
 
             var result = await _userManager.ConfirmEmailAsync(user, decodedToken);
             return result.Succeeded;
         }
+
+        //public async Task<string?> ForgotPassword(ForgotPasswordDto forgotPasswordDto,string origin)
+        //{
+        //    var user = await _userManager.FindByEmailAsync(forgotPasswordDto.Email);
+        //    if (user == null)
+        //        return null;
+        //    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+        //    var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+
+        //    var resetLink = $"{origin}/reset-password?email={forgotPasswordDto.Email}&token={encodedToken}";
+
+        //    await _emailService.SendPasswordResetEmailAsync(user.Email, resetLink);
+        //    return resetLink;
+        //}
+
     }
 }

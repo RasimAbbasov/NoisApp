@@ -38,8 +38,6 @@ namespace Nois.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateCategoryDto createCategoryDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             await _categoryService.CreateAsync(createCategoryDto);
             _logger.LogInformation("Category Create endpoint called at {Time}", DateTime.Now);
             return Ok(new { message = "Category created successfully" });

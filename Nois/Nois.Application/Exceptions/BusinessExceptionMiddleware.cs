@@ -32,7 +32,6 @@ namespace Nois.Application.Exceptions
             {
                 throw;
             }
-
         }
 
     }
