@@ -67,5 +67,27 @@ namespace Nois.API.Controllers
 
             return Ok("Email successfully verified");
         }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordDto dto)
+        {
+            var origin = Request.Headers["origin"].ToString();
+
+            await _authService.ForgotPasswordAsync(dto, origin);
+
+            return Ok("If an account with that email exists, a reset link has been sent.");
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword(ResetPasswordDto dto)
+        {
+            var result = await _authService.ResetPasswordAsync(dto);
+
+            if (!result)
+                return BadRequest("Password reset failed");
+
+            return Ok("Password has been reset successfully");
+        }
+
     }
 }

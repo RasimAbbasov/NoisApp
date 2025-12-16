@@ -9,8 +9,7 @@ using Nois.Application.Interfaces;
 using Nois.Domain.Entities.Identity;
 using Nois.Infrastructure.Options;
 using System.Text;
-using System.Web;
-
+  
 namespace Nois.Infrastructure.Services
 {
     public class AuthService : IAuthService
@@ -144,7 +143,7 @@ namespace Nois.Infrastructure.Services
         {
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
-            var callbackUrl = $"{origin}/verify-email?userId={user.Id}&token={encodedToken}";
+            var callbackUrl = $"{origin}/VerifyEmail?userId={user.Id}&token={encodedToken}";
 
             await _emailService.SendEmailConfirmationAsync(user.Email, callbackUrl);
         }
@@ -162,19 +161,33 @@ namespace Nois.Infrastructure.Services
             return result.Succeeded;
         }
 
-        //public async Task<string?> ForgotPassword(ForgotPasswordDto forgotPasswordDto,string origin)
-        //{
-        //    var user = await _userManager.FindByEmailAsync(forgotPasswordDto.Email);
-        //    if (user == null)
-        //        return null;
-        //    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-        //    var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+        public async Task<string?> ForgotPasswordAsync(ForgotPasswordDto forgotPasswordDto, string origin)
+        {
+            var user = await _userManager.FindByEmailAsync(forgotPasswordDto.Email);
+            if (user == null)
+                return null;
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
 
-        //    var resetLink = $"{origin}/reset-password?email={forgotPasswordDto.Email}&token={encodedToken}";
+            var resetLink = $"{origin}/ResetPassword?email={forgotPasswordDto.Email}&token={encodedToken}";
 
-        //    await _emailService.SendPasswordResetEmailAsync(user.Email, resetLink);
-        //    return resetLink;
-        //}
+            await _emailService.SendPasswordResetEmailAsync(user.Email, resetLink);
+            return resetLink;
+        }
+
+        public async Task<bool> ResetPasswordAsync(ResetPasswordDto dto)
+        {
+            var user = await _userManager.FindByEmailAsync(dto.Email);
+            if (user == null)
+                return false;
+
+            // Decode token from URL
+            var decodedToken = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(dto.Token));
+
+            var result = await _userManager.ResetPasswordAsync(user,decodedToken,dto.NewPassword);
+
+            return result.Succeeded;
+        }
 
     }
 }

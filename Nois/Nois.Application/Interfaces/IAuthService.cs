@@ -12,5 +12,7 @@ namespace Nois.Application.Interfaces
         Task<bool> LogoutAsync(string userId);
         Task SendEmailVerificationAsync(AppUser user, string origin);
         Task<bool> VerifyEmailAsync(string userId, string token);
+        Task<string?> ForgotPasswordAsync(ForgotPasswordDto forgotPasswordDto, string origin);
+        Task<bool> ResetPasswordAsync(ResetPasswordDto dto);
     }
 }
