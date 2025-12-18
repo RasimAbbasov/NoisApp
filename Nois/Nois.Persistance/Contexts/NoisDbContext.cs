@@ -17,6 +17,7 @@ namespace Nois.Persistance.Contexts
         public DbSet<ProductVariant> ProductVariants { get; set; }
         public DbSet<ProductStock> ProductStocks { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Wishlist> Wishlists { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,6 +35,10 @@ namespace Nois.Persistance.Contexts
             modelBuilder.Entity<Color>()
                 .HasIndex(c => c.Code)
                 .IsUnique();
+            modelBuilder.Entity<Wishlist>()
+                .HasIndex(w => new { w.UserId, w.ProductId })
+                .IsUnique();
+
         }
     }
 }

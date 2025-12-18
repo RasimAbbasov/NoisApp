@@ -126,7 +126,7 @@ namespace Nois.API
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
             services.AddScoped<IProductStockRepository, ProductStockRepository>();
-
+            services.AddScoped<IWishlistRepository, WishlistRepository>();
 
             //Services
             services.AddScoped<ICategoryService, CategoryService>();
@@ -139,6 +139,7 @@ namespace Nois.API
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IWishlistService, WishlistService>();
         }
     }
 }

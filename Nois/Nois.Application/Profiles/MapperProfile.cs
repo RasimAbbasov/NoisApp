@@ -7,6 +7,7 @@ using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.DTOs.SizeDtos;
+using Nois.Application.DTOs.WishlistDtos;
 using Nois.Domain.Entities;
 using Nois.Domain.Entities.Identity;
 
@@ -19,12 +20,12 @@ namespace Nois.Application.Profiles
             //Category
             CreateMap<CreateCategoryDto, Category>();
             CreateMap<UpdateCategoryDto, Category>();
-            CreateMap<Category, CategorySummaryDto> ().ReverseMap();
+            CreateMap<Category, CategorySummaryDto>().ReverseMap();
 
             //Color
             CreateMap<CreateColorDto, Color>();
             CreateMap<UpdateColorDto, Color>();
-            CreateMap<Color, ColorSummaryDto> ().ReverseMap();
+            CreateMap<Color, ColorSummaryDto>().ReverseMap();
             //Size
             CreateMap<CreateSizeDto, Size>();
             CreateMap<UpdateSizeDto, Size>();
@@ -70,11 +71,22 @@ namespace Nois.Application.Profiles
             CreateMap<CreateProductStockDto, ProductStock>()
             .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
 
-            CreateMap<UpdateProductStockDto,ProductStock>()
+            CreateMap<UpdateProductStockDto, ProductStock>()
             .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
 
             //User (Check)
             CreateMap<RegisterDto, AppUser>();
+
+
+            //Wishlist 
+            CreateMap<Wishlist, WishlistItemDto>()
+              .ForMember(dest => dest.ProductId, opt => opt.MapFrom(src => src.ProductId))
+              .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Product.Name))
+              .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.Product.BlobName))
+              .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Product.Price));
+
+            CreateMap<CreateWishlistItemDto, Wishlist>();
+
         }
 
     }

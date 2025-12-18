@@ -175,7 +175,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Color", b =>
@@ -208,7 +208,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Colors", (string)null);
+                    b.ToTable("Colors");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Identity.AppUser", b =>
@@ -329,7 +329,7 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductStock", b =>
@@ -357,7 +357,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("ProductVariantId")
                         .IsUnique();
 
-                    b.ToTable("ProductStocks", (string)null);
+                    b.ToTable("ProductStocks");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.ProductVariant", b =>
@@ -392,7 +392,7 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("ProductId", "SizeId", "ColorId")
                         .IsUnique();
 
-                    b.ToTable("ProductVariants", (string)null);
+                    b.ToTable("ProductVariants");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
@@ -425,7 +425,38 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("Sizes", (string)null);
+                    b.ToTable("Sizes");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.Wishlist", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId", "ProductId")
+                        .IsUnique();
+
+                    b.ToTable("Wishlists");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -526,6 +557,25 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("Size");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.Wishlist", b =>
+                {
+                    b.HasOne("Nois.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Nois.Domain.Entities.Identity.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Category", b =>

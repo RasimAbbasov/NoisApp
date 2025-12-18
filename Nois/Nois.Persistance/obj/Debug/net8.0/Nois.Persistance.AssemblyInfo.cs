@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nois.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f82a21c5e61bfebbfb4fd1c67f319bfd9d0d4f29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+156868344a189897a99aad53b999965bd176bb79")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nois.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nois.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
