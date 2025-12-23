@@ -18,6 +18,12 @@ namespace Nois.Persistance.Contexts
         public DbSet<ProductStock> ProductStocks { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,19 +31,15 @@ namespace Nois.Persistance.Contexts
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(NoisDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<ProductVariant>()
-            .HasIndex(x => new { x.ProductId, x.SizeId, x.ColorId }).IsUnique();
+          
 
-            modelBuilder.Entity<Size>()
-                .HasIndex(s => s.Code)
-                .IsUnique();
+         
 
-            modelBuilder.Entity<Color>()
-                .HasIndex(c => c.Code)
-                .IsUnique();
-            modelBuilder.Entity<Wishlist>()
-                .HasIndex(w => new { w.UserId, w.ProductId })
-                .IsUnique();
+     
+
+            
+
+           
 
         }
     }
