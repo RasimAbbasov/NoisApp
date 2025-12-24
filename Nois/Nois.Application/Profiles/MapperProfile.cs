@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Nois.Application.DTOs.AuthDtos;
+using Nois.Application.DTOs.BasketDtos;
 using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
+using Nois.Application.DTOs.OrderDtos;
 using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
@@ -86,6 +88,19 @@ namespace Nois.Application.Profiles
               .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Product.Price));
 
             CreateMap<CreateWishlistItemDto, Wishlist>();
+
+
+            //Basket 
+            CreateMap<Basket, BasketDto>()
+           .ForMember(d => d.TotalPrice, o => o.MapFrom(s => s.Items.Sum(i => i.UnitPrice * i.Quantity)));
+
+            CreateMap<BasketItem, BasketItemDto>();
+
+            //Order 
+            CreateMap<Order, OrderDto>()
+                .ForMember(d => d.Status, o => o.MapFrom(s => s.Status.ToString()));
+
+            CreateMap<OrderItem, OrderItemDto>();
 
         }
 

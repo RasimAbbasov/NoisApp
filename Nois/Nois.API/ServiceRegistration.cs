@@ -15,9 +15,7 @@ using Nois.Infrastructure.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Diagnostics;
 using Nois.Application.Exceptions;
-using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace Nois.API
 {
@@ -127,6 +125,8 @@ namespace Nois.API
             services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
             services.AddScoped<IProductStockRepository, ProductStockRepository>();
             services.AddScoped<IWishlistRepository, WishlistRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IBasketRepository, BasketRepository>();
 
             //Services
             services.AddScoped<ICategoryService, CategoryService>();
@@ -140,6 +140,8 @@ namespace Nois.API
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IWishlistService, WishlistService>();
+            services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IOrderService, OrderService>();
         }
     }
 }

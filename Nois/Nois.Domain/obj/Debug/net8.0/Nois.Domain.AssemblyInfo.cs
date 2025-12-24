@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nois.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a5da5b36cf8322e77660e76013ffac37ac6ab3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f27c5ee5104407948559174bdaf8fd31e75502")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nois.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nois.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
