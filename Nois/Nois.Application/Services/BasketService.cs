@@ -49,6 +49,30 @@ namespace Nois.Application.Services
 
             await _basketRepository.UpsertAsync(basket);
         }
+        //public async Task UpdateItemQuantityAsync(string buyerId, int productId, int newQuantity)
+        //{
+        //    // 1. Minimum quantity safety
+        //    if (newQuantity <= 0)
+        //    {
+        //        await RemoveItemFromBasketAsync(buyerId, productId);
+        //        return;
+        //    }
+
+        //    var basket = await _basketRepository.GetByBuyerIdAsync(buyerId);
+        //    var item = basket?.Items.FirstOrDefault(x => x.ProductId == productId);
+
+        //    if (item != null)
+        //    {
+        //        // 2. Stock Check (Optional but recommended)
+        //        var product = await _productRepository.GetByIdAsync(productId);
+        //        if (product != null && product. < newQuantity)
+        //            throw new Exception("Insufficient stock");
+
+        //        // 3. Update the value
+        //        item.Quantity = newQuantity;
+        //        await _basketRepository.UpsertAsync(basket);
+        //    }
+        //}
         public async Task RemoveItemFromBasketAsync(string buyerId, int productId)
         {
             var basket = await _basketRepository.GetByBuyerIdAsync(buyerId);

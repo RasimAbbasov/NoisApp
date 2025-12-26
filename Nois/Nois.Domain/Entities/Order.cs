@@ -1,5 +1,7 @@
 ﻿using Nois.Domain.Entities.Common;
 using Nois.Domain.Entities.Enums;
+using Nois.Domain.Entities.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Nois.Domain.Entities
 {
@@ -7,6 +9,9 @@ namespace Nois.Domain.Entities
     {
 
         public string BuyerId { get; set; } = string.Empty;
+
+        [ForeignKey("BuyerId")]
+        public AppUser User { get; set; } 
 
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;
 

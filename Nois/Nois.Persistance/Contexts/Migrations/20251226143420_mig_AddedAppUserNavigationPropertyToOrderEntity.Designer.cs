@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Nois.Persistance.Contexts;
 
@@ -11,9 +12,11 @@ using Nois.Persistance.Contexts;
 namespace Nois.Persistance.Contexts.Migrations
 {
     [DbContext(typeof(NoisDbContext))]
-    partial class NoisDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity")]
+    partial class mig_AddedAppUserNavigationPropertyToOrderEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

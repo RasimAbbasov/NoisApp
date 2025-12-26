@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.OrderDtos;
 using Nois.Application.Interfaces;
@@ -13,6 +14,14 @@ namespace Nois.API.Controllers
         public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
+        }
+
+        [HttpGet("admin/orders")]
+        //[Authorize(Roles = "Admin")] // Critical: Restrict to Admins
+        public async Task<ActionResult<List<OrderAdminDto>>> GetAllOrders()
+        {
+            var orders = await _orderService.GetAllOrdersAsync();
+            return Ok(orders);
         }
 
         [HttpPost("checkout/{buyerId}")]

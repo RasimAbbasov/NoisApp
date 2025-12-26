@@ -102,6 +102,9 @@ namespace Nois.Application.Profiles
 
             CreateMap<OrderItem, OrderItemDto>();
 
+            CreateMap<Order, OrderAdminDto>()
+              .ForMember(dest => dest.BuyerUserName, opt => opt.MapFrom(src => src.User.UserName)).ReverseMap();
+
         }
 
     }

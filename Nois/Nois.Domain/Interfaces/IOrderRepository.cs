@@ -6,6 +6,7 @@ namespace Nois.Domain.Interfaces
     {
         Task<Order?> GetByIdAsync(int id);
         Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId);
+        Task<IEnumerable<Order>> GetAllAsync();
         Task AddAsync(Order order);
     }
 }

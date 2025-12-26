@@ -40,5 +40,13 @@ namespace Nois.Persistance.Repositories
             await _context.Orders.AddAsync(order);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<IEnumerable<Order>> GetAllAsync()
+        {
+            return await _context.Orders
+                .Include(x => x.User)
+                .AsNoTracking()
+                .ToListAsync();
+        }
     }
 }

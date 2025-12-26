@@ -1,4 +1,9 @@
 ﻿namespace Nois.Application.DTOs.OrderDtos
 {
-    public record OrderItemDto(int ProductId, int Quantity, decimal PriceAtPurchase);
+    public class OrderItemDto
+    {
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+        public decimal PriceAtPurchase { get; set; }
+    }
 }
