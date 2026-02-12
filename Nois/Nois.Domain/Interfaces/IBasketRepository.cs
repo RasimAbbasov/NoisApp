@@ -7,5 +7,6 @@ namespace Nois.Domain.Interfaces
         Task<Basket?> GetByBuyerIdAsync(string buyerId);
         Task UpsertAsync(Basket basket);
         Task DeleteAsync(int id);
-    }
+		Task DeleteByBuyerIdAsync(string buyerId);
+	}
 }

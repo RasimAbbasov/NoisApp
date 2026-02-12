@@ -12,13 +12,15 @@ namespace Nois.Application.Services
     {
         private readonly IBasketRepository _basketRepository;
         private readonly IOrderRepository _orderRepository;
+        private readonly IPaymentService _paymentService;
         private readonly IMapper _mapper;
 
-        public OrderService(IBasketRepository basketRepository, IOrderRepository orderRepository, IMapper mapper)
+        public OrderService(IBasketRepository basketRepository, IPaymentService paymentService ,IOrderRepository orderRepository, IMapper mapper)
         {
             _basketRepository = basketRepository;
             _orderRepository = orderRepository;
-            _mapper = mapper;
+            _paymentService = paymentService;
+			_mapper = mapper;
         }
 
         public async Task<List<OrderAdminDto>> GetAllOrdersAsync()
@@ -36,19 +38,19 @@ namespace Nois.Application.Services
                 BuyerId = buyerId,
                 OrderItems = basket.Items.Select(i => new OrderItem
                 {
-                    ProductId = i.ProductId,
+                    ProductVariantId = i.ProductVariantId,
                     Quantity = i.Quantity,
                     PriceAtPurchase = i.UnitPrice
                 }).ToList(),
                 TotalAmount = basket.Items.Sum(i => i.UnitPrice * i.Quantity),
-                Status = OrderStatus.Paid
-            };
+				Status = OrderStatus.Pending
+			};
 
-            await _orderRepository.AddAsync(order);
-            await _basketRepository.DeleteAsync(basket.Id);
-
-            // Map the saved entity back to DTO for the API response
-            return _mapper.Map<OrderDto>(order);
-        }
+			await _orderRepository.AddAsync(order);
+			var clientSecret = await _paymentService.CreatePaymentAsync(order);
+			var orderDto = _mapper.Map<OrderDto>(order);
+			orderDto.ClientSecret = clientSecret;
+			return orderDto;
+		}
     }
 }

@@ -1,21 +1,22 @@
-﻿using Nois.Application.Interfaces;
-using Nois.Application.Profiles;
-using Nois.Application.Services;
-using Nois.Persistance.Contexts;
-using Nois.Persistance.Repositories;
-using Microsoft.EntityFrameworkCore;
-using FluentValidation.AspNetCore;
-using Nois.Application.Validators.CategoryValidators;
-using Nois.Domain.Interfaces;
-using Nois.Infrastructure.Services;
-using Microsoft.AspNetCore.Identity;
-using Nois.Domain.Entities.Identity;
-using System.Text;
-using Nois.Infrastructure.Options;
+﻿using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Nois.Application.Exceptions;
+using Nois.Application.Interfaces;
+using Nois.Application.Profiles;
+using Nois.Application.Services;
+using Nois.Application.Validators.CategoryValidators;
+using Nois.Domain.Entities.Identity;
+using Nois.Domain.Interfaces;
+using Nois.Infrastructure.Options;
+using Nois.Infrastructure.Services;
+using Nois.Persistance.Contexts;
+using Nois.Persistance.Repositories;
+using Stripe;
+using System.Text;
 
 namespace Nois.API
 {
@@ -86,8 +87,9 @@ namespace Nois.API
             //Email Settings
             services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
 
+			StripeConfiguration.ApiKey = configuration["Stripe:SecretKey"];
 
-            var jwtOptions = jwtSection.Get<JwtOptions>();
+			var jwtOptions = jwtSection.Get<JwtOptions>();
             var key = Encoding.UTF8.GetBytes(jwtOptions.Key);
 
             services.Configure<FrontendBaseUrlOptions>(configuration.GetSection(FrontendBaseUrlOptions.FrontendBaseUrl));
@@ -132,7 +134,7 @@ namespace Nois.API
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IColorService, ColorService>();
             services.AddScoped<ISizeService, SizeService>();
-            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductService, Application.Services.ProductService>();
             services.AddScoped<IBlobStorageService,BlobStorageService>();
             services.AddScoped<IProductVariantService, ProductVariantService>();
             services.AddScoped<IProductStockService, ProductStockService>();
@@ -142,6 +144,8 @@ namespace Nois.API
             services.AddScoped<IWishlistService, WishlistService>();
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IOrderService, OrderService>();
-        }
-    }
+			services.AddScoped<IPaymentService, PaymentService>();
+
+		}
+	}
 }

@@ -19,7 +19,7 @@ namespace Nois.Persistance.Repositories
         }
 
 
-        public async Task<Order?> GetByIdAsync(int id)
+        public async Task<Order?> GetByIdAsync(Guid id)
         {
             return await _context.Orders
                 .Include(o => o.OrderItems)
@@ -48,5 +48,10 @@ namespace Nois.Persistance.Repositories
                 .AsNoTracking()
                 .ToListAsync();
         }
-    }
+		public async Task UpdateAsync(Order order)
+		{
+			_context.Orders.Update(order);
+			await _context.SaveChangesAsync();
+		}
+	}
 }

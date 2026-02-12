@@ -34,5 +34,15 @@ namespace Nois.Persistance.Repositories
                 await _context.SaveChangesAsync();
             }
         }
-    }
+		public async Task DeleteByBuyerIdAsync(string buyerId)
+		{
+			var basket = await _context.Baskets.FindAsync(buyerId);
+			if (basket != null)
+			{
+				_context.Baskets.Remove(basket);
+				await _context.SaveChangesAsync();
+			}
+		}
+
+	}
 }

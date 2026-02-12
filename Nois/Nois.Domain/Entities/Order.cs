@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Nois.Domain.Entities
 {
-    public class Order : BaseEntity
+    public class Order 
     {
-
+        public Guid Id { get; set; }
         public string BuyerId { get; set; } = string.Empty;
 
         [ForeignKey("BuyerId")]

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.csproj": {}
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Nois.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.csproj": {
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Nois.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.csproj",
+        "projectUniqueName": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Nois.API.csproj",
         "projectName": "Nois.API",
-        "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\Nois.API.csproj",
-        "packagesPath": "C:\\Users\\Rasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.API\\obj\\",
+        "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Nois.API.csproj",
+        "packagesPath": "C:\\Users\\Abbasov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,24 +26,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj"
               },
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj"
               },
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj"
               },
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Nois.Persistance.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Nois.Persistance.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Nois.Persistance.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Nois.Persistance.csproj"
               }
             }
           }
@@ -53,7 +56,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -117,21 +121,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj": {
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj",
         "projectName": "Nois.Application",
-        "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj",
-        "packagesPath": "C:\\Users\\Rasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\obj\\",
+        "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj",
+        "packagesPath": "C:\\Users\\Abbasov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,15 +147,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj"
               }
             }
           }
@@ -161,7 +168,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -196,21 +204,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj",
         "projectName": "Nois.Domain",
-        "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj",
-        "packagesPath": "C:\\Users\\Rasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj",
+        "packagesPath": "C:\\Users\\Abbasov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,7 +230,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -236,7 +247,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -263,21 +275,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj": {
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
         "projectName": "Nois.Infrastructure",
-        "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Rasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Abbasov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,18 +301,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj"
               },
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj"
               }
             }
           }
@@ -310,7 +325,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -327,6 +343,10 @@
             "MimeKit": {
               "target": "Package",
               "version": "[4.14.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[50.3.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -349,21 +369,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Nois.Persistance.csproj": {
+    "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Nois.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Nois.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Nois.Persistance.csproj",
         "projectName": "Nois.Persistance",
-        "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Nois.Persistance.csproj",
-        "packagesPath": "C:\\Users\\Rasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\obj\\",
+        "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Nois.Persistance.csproj",
+        "packagesPath": "C:\\Users\\Abbasov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abbasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -371,18 +395,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Application\\Nois.Application.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Nois.Application.csproj"
               },
-              "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Domain\\Nois.Domain.csproj"
+              "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Nois.Domain.csproj"
               }
             }
           }
@@ -396,7 +419,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -437,7 +461,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

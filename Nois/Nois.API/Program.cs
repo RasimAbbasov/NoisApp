@@ -1,5 +1,6 @@
 ﻿using Nois.API;
 using Nois.Application.Exceptions;
+using Nois.Infrastructure.Services;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);

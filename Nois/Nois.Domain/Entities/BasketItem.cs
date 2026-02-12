@@ -7,7 +7,7 @@ namespace Nois.Domain.Entities
         public int BasketId { get; set; }
         public Basket Basket { get; set; } = null!;
 
-        public int ProductId { get; set; }
+        public int ProductVariantId { get; set; }
 
         // Snapshot for UI & safety
         public string ProductName { get; set; } = string.Empty;

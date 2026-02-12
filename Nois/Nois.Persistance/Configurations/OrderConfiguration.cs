@@ -16,6 +16,8 @@ namespace Nois.Persistance.Configurations
 
             builder.Property(p => p.TotalAmount)
                 .HasPrecision(18, 2);
-        }
+			builder.Property(o => o.Id)
+		   .HasDefaultValueSql("NEWSEQUENTIALID()");
+		}
     }
 }
