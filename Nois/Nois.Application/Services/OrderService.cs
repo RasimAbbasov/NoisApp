@@ -4,7 +4,6 @@ using Nois.Application.Interfaces;
 using Nois.Domain.Entities.Enums;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
-using Nois.Application.DTOs.ColorDtos;
 
 namespace Nois.Application.Services
 {
@@ -28,7 +27,12 @@ namespace Nois.Application.Services
             var orders = await _orderRepository.GetAllAsync();
             return _mapper.Map<List<OrderAdminDto>>(orders);
         }
-        public async Task<OrderDto> CreateOrderAsync(string buyerId)
+		public async Task<List<OrderAdminDto>> GetOrderByUserAsync(string UserId)
+		{
+			var orders = await _orderRepository.GetByBuyerIdAsync(UserId);
+			return _mapper.Map<List<OrderAdminDto>>(orders);
+		}
+		public async Task<OrderDto> CreateOrderAsync(string buyerId)
         {
             var basket = await _basketRepository.GetByBuyerIdAsync(buyerId);
             if (basket == null) throw new Exception("Basket Empty");

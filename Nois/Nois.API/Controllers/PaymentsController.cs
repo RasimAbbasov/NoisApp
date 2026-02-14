@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using Nois.Application.Interfaces;
+using Stripe;
 
 namespace Nois.API.Controllers
 {
@@ -50,19 +51,57 @@ namespace Nois.API.Controllers
 				var intentId = jObject["data"]["object"]["id"].ToString();
 				await _paymentService.ConfirmPaymentAsync(intentId);
 			}
-
-
 			return Ok();
 		}
 
 	}
 }
 
-		//[HttpPost("stripe-webhook")]
-		//public async Task<IActionResult> StripeWebhook()
-		//{
-		//	var json = await new StreamReader(Request.Body).ReadToEndAsync();
-		//	var jObject = Newtonsoft.Json.Linq.JObject.Parse(json);
+
+	//[HttpPost("stripe-webhook")]
+	//public async Task<IActionResult> HandleStripeWebhook()
+	//{
+	//	var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
+
+//	// Stripe-dan gələn imza (Signature)
+//	var stripeSignature = Request.Headers["Stripe-Signature"];
+//	// Bu sirr (secret) CLI listen işə düşəndə terminalda görünür (whsec_...)
+//	string endpointSecret = _configuration["Stripe:WebhookSecret"];
+
+//	try
+//	{
+//		var stripeEvent = EventUtility.ConstructEvent(json, stripeSignature, endpointSecret);
+
+//		// Ödəniş uğurlu olduqda
+//		if (stripeEvent.Type == EventTypes.PaymentIntentSucceeded)
+//		{
+//			var paymentIntent = stripeEvent.Data.Object as PaymentIntent;
+
+//			// Bura öz biznes məntiqini əlavə et:
+//			// 1. Verilənlər bazasında sifarişin statusunu 'Ödənildi' et
+//			// 2. İstifadəçiyə email göndər
+//			// 3. Stok yenilənməsi və s.
+
+//			Console.WriteLine($"Payment succesful: {paymentIntent.Id} - Amount: {paymentIntent.Amount}");
+//		}
+
+//		return Ok();
+//	}
+//	catch (StripeException e)
+//	{
+//		return BadRequest(e.Message);
+//	}
+//}
+
+
+
+
+
+//[HttpPost("stripe-webhook")]
+//public async Task<IActionResult> StripeWebhook()
+//{
+//	var json = await new StreamReader(Request.Body).ReadToEndAsync();
+//	var jObject = Newtonsoft.Json.Linq.JObject.Parse(json);
 
 //	// Event type yoxla
 //	if (jObject["type"]?.ToString() == "payment_intent.succeeded")

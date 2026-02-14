@@ -2,7 +2,7 @@
 {
     public class OrderAdminDto
     {
-        public int Id { get; init; }
+        public Guid Id { get; init; }
         public string BuyerId { get; init; }
         public string BuyerUserName { get; init; }
         public DateTime OrderDate { get; init; }

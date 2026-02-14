@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\validators\\authvalidators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\validators\\authvalidators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\validators\\authvalidators\\resetpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\validators\\authvalidators\\resetpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -11,24 +71,48 @@
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.infrastructure\\nois.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\nois.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.infrastructure\\nois.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\nois.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +123,12 @@
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,14 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,18 +203,6 @@
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -175,20 +215,8 @@
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\orderdtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\dtos\\orderdtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.domain\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143100_mig_AddedAppUserNavigationPropertyToOrderEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -196,18 +224,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\dtos\\basketdtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,16 +242,8 @@
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\onedrive\\desktop\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -265,7 +273,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -281,64 +289,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\PaymentService.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Services\\PaymentService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDIAAABIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs*",
+              "RelativeToolTip": "Nois.Application\\Services\\OrderService.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:44:49.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.917Z",
+              "WhenOpened": "2026-02-02T15:32:16.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBasketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IBasketRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IBasketRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IBasketRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IBasketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:07:30.507Z"
+              "WhenOpened": "2026-02-02T15:32:16.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Title": "OrderAdminDto.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
+              "RelativeToolTip": "Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:42:11.157Z"
+              "WhenOpened": "2026-02-02T15:32:16.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -346,36 +332,77 @@
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs*",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\OrderRepository.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.868Z"
+              "WhenOpened": "2026-02-02T15:32:16.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs*",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Nois.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
-              "RelativeToolTip": "Nois.API\\appsettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-02T16:12:52.117Z",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "Nois.API\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BasketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\BasketRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\BasketRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\BasketRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\BasketRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:46:48.662Z"
+              "WhenOpened": "2026-02-02T15:32:17.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ColorController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ColorController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T20:30:59.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -385,253 +412,157 @@
               "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IOrderRepository.cs",
               "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IOrderRepository.cs",
               "RelativeToolTip": "Nois.Domain\\Interfaces\\IOrderRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.953Z"
+              "WhenOpened": "2026-02-02T15:32:16.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Nois.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Nois.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
-              "RelativeToolTip": "Nois.Infrastructure\\Nois.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-12T11:16:28.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Color.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Color.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Color.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Color.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Color.cs",
+              "DocumentIndex": 10,
+              "Title": "IColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IColorService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IColorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T11:05:19.445Z"
+              "WhenOpened": "2026-02-02T15:32:16.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BasketItem.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\BasketItem.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\BasketItem.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\BasketItem.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\BasketItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
-              "RelativeToolTip": "Nois.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:59:58.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20251223133342_mig_AddOrderAndBasketEntities.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAQwGkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:18:53.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NoisDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:20:50.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:22:10.371Z"
+              "WhenOpened": "2026-02-14T20:22:57.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProductStockService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAA9AAAAAAAAAA==",
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Validators\\AuthValidators\\RegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\AuthValidators\\RegisterDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Validators\\AuthValidators\\RegisterDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\AuthValidators\\RegisterDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:37:34.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "NoisDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAHgBAAAAAAAAAAAQwIgBAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:22:40.912Z"
+              "WhenOpened": "2026-02-14T20:26:46.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\OrderService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAASwBEAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\BasketService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\BasketService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\BasketService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\BasketService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20251218140654_mig_UpdatedWishlistEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
+              "Title": "ResetPasswordDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Validators\\AuthValidators\\ResetPasswordDtoValidator.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Validators\\AuthValidators\\ResetPasswordDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Validators\\AuthValidators\\ResetPasswordDtoValidator.cs",
+              "RelativeToolTip": "Nois.Application\\Validators\\AuthValidators\\ResetPasswordDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:18:52.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20251119141318_mig_AddProductStockAndProductVariantTables.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:18:44.735Z"
+              "WhenOpened": "2026-02-14T20:26:46.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.043Z"
+              "WhenOpened": "2026-02-02T15:32:16.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\PaymentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:14:43.303Z"
+              "WhenOpened": "2026-02-02T15:44:49.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywCAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:14:38.413Z"
+              "WhenOpened": "2026-02-02T15:46:48.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "Nois.Persistance\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwC0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:42:11.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Nois.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
+              "RelativeToolTip": "Nois.API\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T16:12:52.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
-              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IBasketRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IBasketRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IBasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.882Z"
+              "WhenOpened": "2026-02-02T16:07:30.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
-              "RelativeToolTip": "Nois.Infrastructure\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:14:23.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "OrderItemConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
-              "RelativeToolTip": "Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:12:09.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:09:28.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 21,
               "Title": "Basket.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Basket.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Basket.cs",
@@ -639,179 +570,36 @@
               "RelativeToolTip": "Nois.Domain\\Entities\\Basket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.026Z"
+              "WhenOpened": "2026-02-02T15:32:17.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Payment.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Payment.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Payment.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductStock.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductStock.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\ProductStock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:51:59.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "OrderConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderConfiguration.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\OrderConfiguration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderConfiguration.cs",
-              "RelativeToolTip": "Nois.Persistance\\Configurations\\OrderConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Nois.API\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeToolTip": "Nois.API\\ServiceRegistration.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAArwIgAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:59:59.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PaymentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
-              "RelativeToolTip": "Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:49:53.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BasketConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\BasketConfiguration.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\BasketConfiguration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\BasketConfiguration.cs",
-              "RelativeToolTip": "Nois.Persistance\\Configurations\\BasketConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T16:11:37.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ColorService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 22,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IPaymentService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IPaymentService.cs",
               "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IPaymentService.cs",
               "RelativeToolTip": "Nois.Application\\Interfaces\\IPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T15:55:17.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProductVariant.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductVariant.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\ProductVariant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:51:53.981Z"
+              "WhenOpened": "2026-02-02T15:32:16.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\OrderDtos\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "MapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Profiles\\MapperProfile.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
-              "RelativeToolTip": "Nois.Application\\Profiles\\MapperProfile.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAjwG0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "OrderAdminDto.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
-              "RelativeToolTip": "Nois.Application\\DTOs\\OrderDtos\\OrderAdminDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 24,
               "Title": "OrderItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\OrderDtos\\OrderItemDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\OrderDtos\\OrderItemDto.cs",
@@ -823,7 +611,343 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
+              "RelativeToolTip": "Nois.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:59:58.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Nois.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Nois.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Nois.Infrastructure.csproj",
+              "RelativeToolTip": "Nois.Infrastructure\\Nois.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-12T11:16:28.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Color.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Color.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Color.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T11:05:19.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BasketItem.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\BasketItem.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\BasketItem.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\BasketItem.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\BasketItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20251223133342_mig_AddOrderAndBasketEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251223133342_mig_AddOrderAndBasketEntities.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwGkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:18:53.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NoisDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:20:50.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20260202162210_mig_UpdatedBasketBasketItemOrderOrderItemPaymentEntities.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:22:10.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:37:34.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NoisDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\NoisDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAQwIgBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:22:40.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\BasketService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\BasketService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20251218140654_mig_UpdatedWishlistEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251218140654_mig_UpdatedWishlistEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:18:52.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251119141318_mig_AddProductStockAndProductVariantTables.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251119141318_mig_AddProductStockAndProductVariantTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:18:44.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:14:43.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:14:38.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
+              "RelativeToolTip": "Nois.Persistance\\Contexts\\Migrations\\20251226143420_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 45,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "Nois.Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:14:23.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "Nois.Persistance\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:12:09.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:09:28.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductStock.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductStock.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductStock.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\ProductStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:51:59.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaymentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
+              "RelativeToolTip": "Nois.Persistance\\Configurations\\PaymentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:49:53.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BasketConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\BasketConfiguration.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Configurations\\BasketConfiguration.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Configurations\\BasketConfiguration.cs",
+              "RelativeToolTip": "Nois.Persistance\\Configurations\\BasketConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T16:11:37.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\ProductVariant.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\ProductVariant.cs",
+              "RelativeToolTip": "Nois.Domain\\Entities\\ProductVariant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:51:53.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Nois.Application\\Profiles\\MapperProfile.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAjwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:16.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:32:17.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Identity\\AppUser.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Identity\\AppUser.cs",
@@ -835,19 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "Nois.Domain\\Entities\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "20251226143100_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143100_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Rasim\\OneDrive\\Desktop\\ClothingShop\\Nois\\Nois.Persistance\\Contexts\\Migrations\\20251226143100_mig_AddedAppUserNavigationPropertyToOrderEntity.cs",
@@ -858,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "WishlistRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\WishlistRepository.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\WishlistRepository.cs",
@@ -870,43 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ColorController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ColorController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "BasketItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\BasketDtos\\BasketItemDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\BasketDtos\\BasketItemDto.cs",
@@ -918,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "BasketDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\BasketDtos\\BasketDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\BasketDtos\\BasketDto.cs",
@@ -930,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "IProductStockService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductStockService.cs",
@@ -942,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductService.cs",
@@ -954,19 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IColorService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IColorService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
-              "RelativeToolTip": "Nois.Application\\Interfaces\\IColorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:16.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IEmailService.cs",
@@ -978,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "IBasketService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IBasketService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IBasketService.cs",
@@ -990,19 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\BasketController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T15:32:17.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "WishlistService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\WishlistService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Services\\WishlistService.cs",
@@ -1014,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\GenericRepository.cs",
@@ -1026,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\CategoryController.cs",
@@ -1038,7 +1090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "ColorSummaryDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\OneDrive\\Desktop\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\ColorDtos\\ColorSummaryDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ColorDtos\\ColorSummaryDto.cs",

@@ -36,7 +36,9 @@ namespace Nois.Persistance.Repositories
         }
 		public async Task DeleteByBuyerIdAsync(string buyerId)
 		{
-			var basket = await _context.Baskets.FindAsync(buyerId);
+			var basket = await _context.Baskets
+				.FirstOrDefaultAsync(x => x.BuyerId == buyerId); // Find yerinə bunu istifadə et
+
 			if (basket != null)
 			{
 				_context.Baskets.Remove(basket);

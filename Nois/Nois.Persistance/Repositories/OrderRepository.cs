@@ -27,7 +27,7 @@ namespace Nois.Persistance.Repositories
                 .FirstOrDefaultAsync(o => o.Id == id);
         }
 
-        public async Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId)
+		public async Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId)
         {
             return await _context.Orders
                 .Where(o => o.BuyerId == buyerId)

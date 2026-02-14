@@ -23,8 +23,15 @@ namespace Nois.API.Controllers
             var orders = await _orderService.GetAllOrdersAsync();
             return Ok(orders);
         }
+		[HttpGet("admin/{userId}/orders")]
+		//[Authorize(Roles = "Admin")] // Critical: Restrict to Admins
+		public async Task<ActionResult<List<OrderAdminDto>>> GetOrders(string userId)
+		{
+			var orders = await _orderService.GetOrderByUserAsync(userId);
+			return Ok(orders);
+		}
 
-        [HttpPost("checkout/{buyerId}")]
+		[HttpPost("checkout/{buyerId}")]
         public async Task<ActionResult<OrderDto>> Checkout(string buyerId)
         {
             // All complex stock validation, payment simulation, and basket clearing 

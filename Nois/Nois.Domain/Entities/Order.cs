@@ -10,7 +10,6 @@ namespace Nois.Domain.Entities
         public Guid Id { get; set; }
         public string BuyerId { get; set; } = string.Empty;
 
-        [ForeignKey("BuyerId")]
         public AppUser User { get; set; } 
 
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;

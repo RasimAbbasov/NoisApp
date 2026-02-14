@@ -25,17 +25,33 @@ namespace Nois.Infrastructure.Services
 			{
 				Amount = (long)(order.TotalAmount * 100), // cents
 				Currency = "usd",
+				// BU HİSSƏNİ ƏLAVƏ ET:
+				AutomaticPaymentMethods = new PaymentIntentAutomaticPaymentMethodsOptions
+				{
+					Enabled = true, // Stripe Dashboard-da aktiv etdiyin bütün metodları frontend-ə göndərir
+				},
 				Metadata = new Dictionary<string, string>
-			{
-				{ "orderId", order.Id.ToString() }
-			}
+		{
+			{ "orderId", order.Id.ToString() }
+
+		}
 			};
 
-			var service = new PaymentIntentService();
-			var intent = await service.CreateAsync(options);
+			try
+			{
+				var service = new PaymentIntentService();
+				var intent = await service.CreateAsync(options);
 
-			return intent.ClientSecret;
+				// Frontend-ə həm ClientSecret, həm də lazımdırsa digər datanı qaytarırıq
+				return intent.ClientSecret;
+			}
+			catch (StripeException e)
+			{
+				Console.WriteLine(e.StripeError.Message);
+				return null;
+			}
 		}
+
 
 		// STEP 2: Confirm payment via webhook
 
