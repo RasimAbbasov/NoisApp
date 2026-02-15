@@ -34,15 +34,27 @@ namespace Nois.Persistance.Repositories
 
             return query;
         }
+		public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate)
+		{
+			return await _context
+				.Set<T>()
+				.Where(predicate)
+				.ToListAsync();
+		}
 
-        public async Task<T?> GetByIdAsync(int id)
+
+		public async Task<T?> GetByIdAsync(int id)
         {
             IQueryable<T> query = _dbSet.AsQueryable();
 
             return await query.FirstOrDefaultAsync(e => e.Id == id);
         }
+		public async Task<T?> GetAsync(Expression<Func<T, bool>> predicate)
+		{
+			return await _context.Set<T>().FirstOrDefaultAsync(predicate);
+		}
 
-        public async Task CreateAsync(T entity)
+		public async Task CreateAsync(T entity)
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));
 
@@ -79,5 +91,7 @@ namespace Nois.Persistance.Repositories
         {
             return await _context.SaveChangesAsync();
         }
+
+     
     }
 }

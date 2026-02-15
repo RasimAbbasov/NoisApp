@@ -8,6 +8,7 @@ using Nois.Application.DTOs.OrderDtos;
 using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
+using Nois.Application.DTOs.ProductVariantRatingDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.DTOs.WishlistDtos;
 using Nois.Domain.Entities;
@@ -105,6 +106,8 @@ namespace Nois.Application.Profiles
             CreateMap<Order, OrderAdminDto>()
               .ForMember(dest => dest.BuyerUserName, opt => opt.MapFrom(src => src.User.UserName)).ReverseMap();
 
+            CreateMap<CreateProductVariantRatingDto, ProductVariantRating>();
+            CreateMap<ProductVariantRating, ProductVariantRatingDto>();
         }
 
     }

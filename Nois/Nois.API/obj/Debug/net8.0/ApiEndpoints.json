@@ -727,6 +727,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Nois.API.Controllers.ProductVariantRatingController",
+    "Method": "AddRating",
+    "RelativePath": "api/ProductVariantRating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Nois.Application.DTOs.ProductVariantRatingDtos.CreateProductVariantRatingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.ProductVariantRatingController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductVariantRating/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.ProductVariantRatingController",
+    "Method": "GetByVariantId",
+    "RelativePath": "api/ProductVariantRating/variant/{variantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "variantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.ProductVariantRatingController",
+    "Method": "GetSummary",
+    "RelativePath": "api/ProductVariantRating/variant/{variantId}/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "variantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Nois.API.Controllers.SizeController",
     "Method": "GetAll",
     "RelativePath": "api/Size",

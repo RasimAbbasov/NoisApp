@@ -13,7 +13,10 @@ namespace Nois.Domain.Entities
         public int ColorId { get; set; }
         public Color Color { get; set; } = default!;
 
-        public ProductStock ProductStock { get; set; } = new() { Quantity = 0 };
+		public double AverageRating { get; set; }
+		public int RatingCount { get; set; }
+		public ICollection<ProductVariantRating> Ratings { get; set; }
+		public ProductStock ProductStock { get; set; } = new() { Quantity = 0 };
 
     }
 }

@@ -8,8 +8,8 @@ namespace Nois.Domain.Interfaces
         //IQueryable<T> Table { get; }
 
         Task<List<T>> GetAllAsync();
-
-        Task<T?> GetByIdAsync(int id);
+		Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate);
+		Task<T?> GetByIdAsync(int id);
 
         Task CreateAsync(T entity);
 
@@ -19,7 +19,7 @@ namespace Nois.Domain.Interfaces
 
         // Optional additions for flexibility:
         Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate);
-
-        Task<int> SaveChangesAsync(); // In case you're batching operations (recommended)
+		Task<T?> GetAsync(Expression<Func<T, bool>> predicate);
+		Task<int> SaveChangesAsync(); // In case you're batching operations (recommended)
     }
 }

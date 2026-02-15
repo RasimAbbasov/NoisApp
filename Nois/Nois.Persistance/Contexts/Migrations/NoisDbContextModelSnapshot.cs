@@ -522,6 +522,9 @@ namespace Nois.Persistance.Contexts.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<double>("AverageRating")
+                        .HasColumnType("float");
+
                     b.Property<int>("ColorId")
                         .HasColumnType("int");
 
@@ -529,6 +532,9 @@ namespace Nois.Persistance.Contexts.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RatingCount")
                         .HasColumnType("int");
 
                     b.Property<int>("SizeId")
@@ -547,6 +553,38 @@ namespace Nois.Persistance.Contexts.Migrations
                         .IsUnique();
 
                     b.ToTable("ProductVariants");
+                });
+
+            modelBuilder.Entity("Nois.Domain.Entities.ProductVariantRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductVariantId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Stars")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductVariantId", "UserId")
+                        .IsUnique();
+
+                    b.ToTable("ProductVariantRatings");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
@@ -757,6 +795,17 @@ namespace Nois.Persistance.Contexts.Migrations
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("Nois.Domain.Entities.ProductVariantRating", b =>
+                {
+                    b.HasOne("Nois.Domain.Entities.ProductVariant", "ProductVariant")
+                        .WithMany("Ratings")
+                        .HasForeignKey("ProductVariantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductVariant");
+                });
+
             modelBuilder.Entity("Nois.Domain.Entities.Wishlist", b =>
                 {
                     b.HasOne("Nois.Domain.Entities.Product", "Product")
@@ -802,6 +851,8 @@ namespace Nois.Persistance.Contexts.Migrations
                 {
                     b.Navigation("ProductStock")
                         .IsRequired();
+
+                    b.Navigation("Ratings");
                 });
 
             modelBuilder.Entity("Nois.Domain.Entities.Size", b =>
