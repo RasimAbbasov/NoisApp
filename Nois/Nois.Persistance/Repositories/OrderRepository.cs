@@ -31,6 +31,7 @@ namespace Nois.Persistance.Repositories
         {
             return await _context.Orders
                 .Where(o => o.BuyerId == buyerId)
+                .Include(x=>x.User)
                 .Include(o => o.OrderItems)
                 .ToListAsync();
         }

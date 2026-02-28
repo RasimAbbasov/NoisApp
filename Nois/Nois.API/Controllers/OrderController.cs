@@ -31,34 +31,50 @@ namespace Nois.API.Controllers
 			return Ok(orders);
 		}
 
-		[HttpPost("checkout/{buyerId}")]
-        public async Task<ActionResult<OrderDto>> Checkout(string buyerId)
+		[HttpPost("checkout")]
+        public async Task<ActionResult<OrderDto>> Checkout(CreateOrderRequestDto requestDto)
         {
             // All complex stock validation, payment simulation, and basket clearing 
             // happens within the service layer.
-            var orderDto = await _orderService.CreateOrderAsync(buyerId);
+            var orderDto = await _orderService.CreateOrderAsync(requestDto);
 
             // Return HTTP 201 Created status, pointing to the new resource location
             return Ok(new { message = "Ordered successfully" });
+			//return Ok(orderDto);
+		}
+		//return CreatedAtAction(nameof(GetOrder), new { id = orderDto.Id }, orderDto);
+	}
 
-            //return CreatedAtAction(nameof(GetOrder), new { id = orderDto.Id }, orderDto);
-        }
 
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<OrderDto>> GetOrder(int id)
-        //{
-        //    var orderDto = await _orderService.GetOrderByIdAsync(id);
-        //    if (orderDto == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(orderDto);
-        //}
-        //[HttpGet("history/{buyerId}")]
-        //public async Task<ActionResult<IEnumerable<OrderDto>>> GetOrderHistory(string buyerId)
-        //{
-        //    var history = await _orderService.GetCustomerOrderHistoryAsync(buyerId);
-        //    return Ok(history);
-        //}
-    }
+		//Latest
+		//[HttpPost("checkout/{buyerId}")]
+		//public async Task<ActionResult<OrderDto>> Checkout(string buyerId)
+		//{
+		//	// All complex stock validation, payment simulation, and basket clearing 
+		//	// happens within the service layer.
+		//	var orderDto = await _orderService.CreateOrderAsync(buyerId);
+
+		//	// Return HTTP 201 Created status, pointing to the new resource location
+		//	return Ok(new { message = "Ordered successfully" });
+
+		//	//return CreatedAtAction(nameof(GetOrder), new { id = orderDto.Id }, orderDto);
+		//}
+
+
+		//[HttpGet("{id}")]
+		//public async Task<ActionResult<OrderDto>> GetOrder(int id)
+		//{
+		//    var orderDto = await _orderService.GetOrderByIdAsync(id);
+		//    if (orderDto == null)
+		//    {
+		//        return NotFound();
+		//    }
+		//    return Ok(orderDto);
+		//}
+		//[HttpGet("history/{buyerId}")]
+		//public async Task<ActionResult<IEnumerable<OrderDto>>> GetOrderHistory(string buyerId)
+		//{
+		//    var history = await _orderService.GetCustomerOrderHistoryAsync(buyerId);
+		//    return Ok(history);
+		//}
 }

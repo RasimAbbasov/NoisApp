@@ -24,6 +24,7 @@ namespace Nois.Persistance.Contexts
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<ProductVariantRating> ProductVariantRatings { get; set; }
+        public DbSet<PromoCode> PromoCodes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,15 +32,6 @@ namespace Nois.Persistance.Contexts
             base.OnModelCreating(modelBuilder);
 
           
-
-         
-
-     
-
-            
-
-           
-
         }
     }
 }

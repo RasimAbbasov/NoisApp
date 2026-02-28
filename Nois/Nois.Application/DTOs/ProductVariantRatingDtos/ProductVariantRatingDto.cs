@@ -12,5 +12,7 @@ namespace Nois.Application.DTOs.ProductVariantRatingDtos
 		public int ProductVariantId { get; set; }
 		public string UserId { get; set; }
 		public int Stars { get; set; }
+		public string? Comment { get; set; }
+
 	}
 }

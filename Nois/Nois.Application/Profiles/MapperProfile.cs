@@ -9,6 +9,7 @@ using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.DTOs.ProductVariantRatingDtos;
+using Nois.Application.DTOs.PromoCodeDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.DTOs.WishlistDtos;
 using Nois.Domain.Entities;
@@ -99,16 +100,33 @@ namespace Nois.Application.Profiles
 
             //Order 
             CreateMap<Order, OrderDto>()
-                .ForMember(d => d.Status, o => o.MapFrom(s => s.Status.ToString()));
+               .ForMember(d => d.Status, o => o.MapFrom(s => s.Status.ToString()))
+               .ForMember(dest => dest.SubTotal, opt => opt.MapFrom(src => src.OrderItems.Sum(x => x.PriceAtPurchase * x.Quantity)));
 
-            CreateMap<OrderItem, OrderItemDto>();
+
+			CreateMap<OrderItem, OrderItemDto>();
 
             CreateMap<Order, OrderAdminDto>()
               .ForMember(dest => dest.BuyerUserName, opt => opt.MapFrom(src => src.User.UserName)).ReverseMap();
 
             CreateMap<CreateProductVariantRatingDto, ProductVariantRating>();
             CreateMap<ProductVariantRating, ProductVariantRatingDto>();
-        }
+
+			//PromoCode
+			CreateMap<CreatePromoCodeDto, PromoCode>()
+              .ForMember(dest => dest.CreatedAt, opt => opt.Ignore());
+
+			CreateMap<UpdatePromoCodeDto, PromoCode>()
+			  .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore());
+
+			CreateMap<PromoCode, PromoCodeDto>();
+
+			CreateMap<PromoCode, ApplyPromoCodeResultDto>()
+        	.ForMember(dest => dest.PromoCodeId, opt => opt.MapFrom(src => src.Id))
+        	.ForMember(dest => dest.IsValid, opt => opt.Ignore())
+        	.ForMember(dest => dest.Message, opt => opt.Ignore())
+	        .ForMember(dest => dest.DiscountAmount, opt => opt.Ignore());
+		}
 
     }
 }

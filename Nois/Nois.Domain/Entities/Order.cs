@@ -1,7 +1,6 @@
 ﻿using Nois.Domain.Entities.Common;
 using Nois.Domain.Entities.Enums;
 using Nois.Domain.Entities.Identity;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Nois.Domain.Entities
 {
@@ -17,8 +16,10 @@ namespace Nois.Domain.Entities
         public decimal TotalAmount { get; set; }
 
         public OrderStatus Status { get; set; } = OrderStatus.Pending;
+		public int? PromoCodeId { get; set; }  // nullable, optional
+		public PromoCode PromoCode { get; set; }
 
-        public ICollection<OrderItem> OrderItems { get; set; } = [];
+		public ICollection<OrderItem> OrderItems { get; set; } = [];
 
         public Payment? Payment { get; set; }
     }

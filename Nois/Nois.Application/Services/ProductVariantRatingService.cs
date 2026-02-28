@@ -39,7 +39,7 @@ namespace Nois.Application.Services
 				// Update rating
 				existingRating.Stars = dto.Stars;
 				existingRating.UpdatedAt = DateTime.UtcNow;
-
+				existingRating.Comment = dto.Comment;
 				await _genericRepository.UpdateAsync(existingRating);
 			}
 			else

@@ -146,6 +146,7 @@ namespace Nois.API
             services.AddScoped<IOrderService, OrderService>();
 			services.AddScoped<IPaymentService, PaymentService>();
             services.AddScoped<IProductVariantRatingService, ProductVariantRatingService>();
+            services.AddScoped<IPromoCodeService, PromoCodeService>();
 		}
 	}
 }

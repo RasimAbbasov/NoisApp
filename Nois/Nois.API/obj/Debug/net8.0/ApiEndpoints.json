@@ -385,14 +385,14 @@
   {
     "ContainingType": "Nois.API.Controllers.OrderController",
     "Method": "Checkout",
-    "RelativePath": "api/Order/checkout/{buyerId}",
+    "RelativePath": "api/Order/checkout",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "buyerId",
-        "Type": "System.String",
+        "Name": "requestDto",
+        "Type": "Nois.Application.DTOs.OrderDtos.CreateOrderRequestDto",
         "IsRequired": true
       }
     ],
@@ -789,6 +789,111 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "GetAll",
+    "RelativePath": "api/PromoCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "Create",
+    "RelativePath": "api/PromoCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPromoCodeDto",
+        "Type": "Nois.Application.DTOs.PromoCodeDtos.CreatePromoCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "Get",
+    "RelativePath": "api/PromoCode/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "Delete",
+    "RelativePath": "api/PromoCode/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "Update",
+    "RelativePath": "api/PromoCode/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Nois.Application.DTOs.PromoCodeDtos.UpdatePromoCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nois.API.Controllers.PromoCodeController",
+    "Method": "ApplyPromoCode",
+    "RelativePath": "api/PromoCode/apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Nois.Application.DTOs.PromoCodeDtos.ApplyPromoCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nois.Application.DTOs.PromoCodeDtos.ApplyPromoCodeResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Nois.API.Controllers.SizeController",
