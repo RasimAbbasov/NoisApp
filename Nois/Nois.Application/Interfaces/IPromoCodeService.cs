@@ -8,7 +8,7 @@ namespace Nois.Application.Interfaces
 		Task<List<PromoCodeDto>> GetAllAsync();
 		Task<PromoCodeDto> GetByIdAsync(int id);
 		Task CreateAsync(CreatePromoCodeDto createPromoCodeDto);
-		Task UpdateAsync(UpdatePromoCodeDto updatePromoCodeDto);
+		Task UpdateAsync(int id, UpdatePromoCodeDto updatePromoCodeDto);
 		Task DeleteAsync(int id);
 		Task<ApplyPromoCodeResultDto> ApplyPromoCodeAsync(ApplyPromoCodeDto dto);
 	}

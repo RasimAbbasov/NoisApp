@@ -56,15 +56,18 @@ namespace Nois.Application.Services
 			return _mapper.Map<PromoCodeDto>(promoCode);
 		}
 
-        public async Task UpdateAsync(UpdatePromoCodeDto updatePromoCodeDto)
+        public async Task UpdateAsync(int id, UpdatePromoCodeDto updatePromoCodeDto)
         {
 			if (updatePromoCodeDto == null) throw new ArgumentNullException(nameof(updatePromoCodeDto));
-			var promoCode = await _genericRepository.GetByIdAsync(updatePromoCodeDto.Id);
+			var promoCode = await _genericRepository.GetByIdAsync(id);
 			if (promoCode == null) throw new KeyNotFoundException("Promo code not found.");
 
-			var exists = await _genericRepository.ExistsAsync(x => x.Code == updatePromoCodeDto.Code);
+			// "Find if ANY record has this code, WHERE the ID is NOT the one I'm currently editing"
+			var exists = await _genericRepository.ExistsAsync(x =>
+				x.Code == updatePromoCodeDto.Code && x.Id != id);
+
 			if (exists)
-				throw new ConflictException("Promo code with this name already exists.");
+				throw new ConflictException("Promo code with this name already exists on another record.");
 
 
 			_mapper.Map(updatePromoCodeDto, promoCode);
@@ -122,10 +125,10 @@ namespace Nois.Application.Services
 			// ✅ Use AutoMapper here
 			var result = _mapper.Map<ApplyPromoCodeResultDto>(promo);
 
-			// Business logic
-			decimal discount = promo.DiscountAmount;
+			// Business logic 
+			decimal discount = promo.DiscountAmount; // Mebleg olaraq promo code qeyd etmke ucun
 
-			if (promo.DiscountPercent > 0)
+			if (promo.DiscountPercent > 0) // Faiz olaraq promo code qeyd etmek ucun
 				discount += dto.OrderAmount * (promo.DiscountPercent / 100m);
 
 			result.IsValid = true;

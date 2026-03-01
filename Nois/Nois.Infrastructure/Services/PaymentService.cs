@@ -11,11 +11,13 @@ namespace Nois.Infrastructure.Services
     {
 		private readonly IOrderRepository _orderRepository;
 		private readonly IBasketRepository _basketRepository;
+		private readonly IGenericRepository<PromoCode> _promoCodeRepository;
 
-		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository)
+		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository,IGenericRepository<PromoCode> promoCodeRepository)
 		{
 			_orderRepository = orderRepository;
 			_basketRepository = basketRepository;
+			_promoCodeRepository = promoCodeRepository;
 		}
 
 		// STEP 1: Create Stripe payment
@@ -70,6 +72,12 @@ namespace Nois.Infrastructure.Services
 				return;
 
 			order.Status = OrderStatus.Paid;
+
+			if (order.PromoCodeId.HasValue)
+			{
+				var promo = await _promoCodeRepository.GetByIdAsync(order.PromoCodeId.Value);
+				promo.UsedCount++;
+			}
 
 			await _orderRepository.UpdateAsync(order);
 			await _basketRepository.DeleteByBuyerIdAsync(order.BuyerId);

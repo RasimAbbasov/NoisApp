@@ -8,7 +8,7 @@ namespace Nois.Application.DTOs.PromoCodeDtos
 {
     public class UpdatePromoCodeDto
     {
-		public int Id { get; set; }
+		//public int Id { get; set; }
 		public string Code { get; set; }              // "CODE20"
 		public decimal DiscountAmount { get; set; }   // fixed discount
 		public decimal DiscountPercent { get; set; }  // percentage discount (0-100)

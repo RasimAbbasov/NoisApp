@@ -24,9 +24,9 @@ C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debu
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.AssemblyInfoInputs.cache
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.AssemblyInfo.cs
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.csproj.CoreCompileInputs.cache
+C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.sourcelink.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.App.80653CFC.Up2Date
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\refint\Nois.Application.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.pdb
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\ref\Nois.Application.dll
-C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Application\obj\Debug\net8.0\Nois.Application.sourcelink.json

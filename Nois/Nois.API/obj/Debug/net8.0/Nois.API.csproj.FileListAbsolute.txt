@@ -185,8 +185,8 @@ C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\Mime
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Rasim\OneDrive\Desktop\ClothingShop\Nois\Nois.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\appsettings.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\Nois.API.staticwebassets.endpoints.json
+C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\appsettings.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\Nois.API.exe
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\Nois.API.deps.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\bin\Debug\net8.0\Nois.API.runtimeconfig.json
@@ -350,6 +350,7 @@ C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.csproj.CoreCompileInputs.cache
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.sourcelink.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -359,11 +360,10 @@ C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.csproj.Up2Date
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\refint\Nois.API.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.pdb
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.genruntimeconfig.cache
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\ref\Nois.API.dll
-C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\Nois.API.sourcelink.json
+C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

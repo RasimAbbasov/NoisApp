@@ -53,10 +53,8 @@ namespace Nois.API.Controllers
 		[HttpPut("{id}")]
 		public async Task<IActionResult> Update(int id, UpdatePromoCodeDto dto)
 		{
-			if (id != dto.Id)
-				return BadRequest("ID mismatch.");
-			await _promoCodeService.UpdateAsync(dto);
-			_logger.LogInformation("Promo code Update endpoint called at {Time}", DateTime.Now);
+			await _promoCodeService.UpdateAsync( id,dto);
+			_logger.LogInformation("Promo code {Id} updated at {Time}", id, DateTime.UtcNow);
 			return NoContent();
 		}
 

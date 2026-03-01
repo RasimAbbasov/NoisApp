@@ -19,8 +19,8 @@ C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.AssemblyInfoInputs.cache
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.AssemblyInfo.cs
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.sourcelink.json
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\refint\Nois.Domain.dll
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.pdb
 C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\ref\Nois.Domain.dll
-C:\Users\Abbasov\OneDrive\Desktop\NoisApp\NoisApp\Nois\Nois.Domain\obj\Debug\net8.0\Nois.Domain.sourcelink.json
