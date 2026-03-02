@@ -5,7 +5,9 @@ namespace Nois.Domain.Interfaces
     public interface IOrderRepository
     {
         Task<Order?> GetByIdAsync(Guid id);
-        Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId);
+        Task<Order?> GetByIdWithProductStockAsync(Guid id);
+
+		Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId);
         Task<IEnumerable<Order>> GetAllAsync();
         Task AddAsync(Order order);
 		Task UpdateAsync(Order order);

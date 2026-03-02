@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.DTOs.PromoCodeDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
@@ -122,7 +121,7 @@ namespace Nois.Application.Services
 					Message = $"Minimum order amount is {promo.MinOrderAmount}"
 				};
 
-			// ✅ Use AutoMapper here
+			// Use AutoMapper here
 			var result = _mapper.Map<ApplyPromoCodeResultDto>(promo);
 
 			// Business logic 

@@ -11,13 +11,15 @@ namespace Nois.Infrastructure.Services
     {
 		private readonly IOrderRepository _orderRepository;
 		private readonly IBasketRepository _basketRepository;
+		private readonly IProductStockRepository _productStockRepository;
 		private readonly IGenericRepository<PromoCode> _promoCodeRepository;
 
-		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository,IGenericRepository<PromoCode> promoCodeRepository)
+		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository,IProductStockRepository productStockRepository, IGenericRepository<PromoCode> promoCodeRepository)
 		{
 			_orderRepository = orderRepository;
 			_basketRepository = basketRepository;
 			_promoCodeRepository = promoCodeRepository;
+			_productStockRepository = productStockRepository;
 		}
 
 		// STEP 1: Create Stripe payment
@@ -73,7 +75,17 @@ namespace Nois.Infrastructure.Services
 
 			order.Status = OrderStatus.Paid;
 
-			if (order.PromoCodeId.HasValue)
+			foreach (var item in order.OrderItems) //ProductStock-un update olub, azaltmaq ucun
+			{
+				var stock = item.ProductVariant.ProductStock;
+
+				if (stock.Quantity < item.Quantity)
+					throw new Exception("Insufficient stock");
+
+				stock.Quantity -= item.Quantity;
+			}
+
+			if (order.PromoCodeId.HasValue) 
 			{
 				var promo = await _promoCodeRepository.GetByIdAsync(order.PromoCodeId.Value);
 				promo.UsedCount++;

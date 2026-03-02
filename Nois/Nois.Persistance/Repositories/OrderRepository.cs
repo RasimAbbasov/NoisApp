@@ -26,6 +26,14 @@ namespace Nois.Persistance.Repositories
                 .Include(o => o.Payment)
                 .FirstOrDefaultAsync(o => o.Id == id);
         }
+		public async Task<Order?> GetByIdWithProductStockAsync(Guid id)
+		{
+			return await _context.Orders
+				.Include(o => o.OrderItems)
+					.ThenInclude(oi => oi.ProductVariant)
+						.ThenInclude(pv => pv.ProductStock)
+				.FirstOrDefaultAsync(o => o.Id == id);
+		}
 
 		public async Task<IEnumerable<Order>> GetByBuyerIdAsync(string buyerId)
         {

@@ -8,8 +8,8 @@ namespace Nois.Domain.Entities
         public Order Order { get; set; } = null!;
 
         public int ProductVariantId { get; set; }
-
-        public int Quantity { get; set; }
+		public ProductVariant ProductVariant { get; set; } = null!;
+		public int Quantity { get; set; }
 
         // Financial snapshot
         public decimal PriceAtPurchase { get; set; }
