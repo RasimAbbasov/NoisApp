@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 using Nois.Persistance.Contexts;
@@ -22,8 +23,11 @@ namespace Nois.Persistance.Repositories
         public async Task<Order?> GetByIdAsync(Guid id)
         {
             return await _context.Orders
-                .Include(o => o.OrderItems)
-                .Include(o => o.Payment)
+				.AsNoTracking()
+				.Include(o => o.OrderItems) // Sifarişin içindəki məhsulları gətir
+		          .ThenInclude(oi => oi.ProductVariant) // Hər məhsulun variantını gətir
+			        .ThenInclude(pv => pv.ProductStock)
+				.Include(o => o.Payment)
                 .FirstOrDefaultAsync(o => o.Id == id);
         }
 		public async Task<Order?> GetByIdWithProductStockAsync(Guid id)
@@ -61,6 +65,10 @@ namespace Nois.Persistance.Repositories
 		{
 			_context.Orders.Update(order);
 			await _context.SaveChangesAsync();
+		}
+		public async Task<IDbContextTransaction> BeginTransactionAsync()
+		{
+			return await _context.Database.BeginTransactionAsync();
 		}
 	}
 }

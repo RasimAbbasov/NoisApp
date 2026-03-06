@@ -12,12 +12,14 @@ namespace Nois.Infrastructure.Services
 		private readonly IOrderRepository _orderRepository;
 		private readonly IBasketRepository _basketRepository;
 		private readonly IProductStockRepository _productStockRepository;
+		private readonly IPaymentRepository _paymentRepository;
 		private readonly IGenericRepository<PromoCode> _promoCodeRepository;
 
-		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository,IProductStockRepository productStockRepository, IGenericRepository<PromoCode> promoCodeRepository)
+		public PaymentService(IOrderRepository orderRepository,IBasketRepository basketRepository,IPaymentRepository paymentRepository,IProductStockRepository productStockRepository, IGenericRepository<PromoCode> promoCodeRepository)
 		{
 			_orderRepository = orderRepository;
 			_basketRepository = basketRepository;
+			_paymentRepository = paymentRepository;
 			_promoCodeRepository = promoCodeRepository;
 			_productStockRepository = productStockRepository;
 		}
@@ -29,10 +31,13 @@ namespace Nois.Infrastructure.Services
 			{
 				Amount = (long)(order.TotalAmount * 100), // cents
 				Currency = "usd",
+				PaymentMethod = "pm_card_visa", //temporary for testing
+				Confirm = true, //temporary for testing
 				// BU HİSSƏNİ ƏLAVƏ ET:
 				AutomaticPaymentMethods = new PaymentIntentAutomaticPaymentMethodsOptions
 				{
 					Enabled = true, // Stripe Dashboard-da aktiv etdiyin bütün metodları frontend-ə göndərir
+					AllowRedirects = "never"  //temporary for testing
 				},
 				Metadata = new Dictionary<string, string>
 		{
@@ -46,13 +51,23 @@ namespace Nois.Infrastructure.Services
 				var service = new PaymentIntentService();
 				var intent = await service.CreateAsync(options);
 
+				var payment = new Payment
+				{
+					OrderId = order.Id,
+					TransactionId = intent.Id, // Stripe-dan gələn ID
+					Amount = order.TotalAmount,
+					PaidAt = DateTime.UtcNow
+					
+				};
+
+				await _paymentRepository.CreateAsync(payment);
 				// Frontend-ə həm ClientSecret, həm də lazımdırsa digər datanı qaytarırıq
 				return intent.ClientSecret;
 			}
 			catch (StripeException e)
 			{
 				Console.WriteLine(e.StripeError.Message);
-				return null;
+				return e.StripeError.Message;
 			}
 		}
 
@@ -72,29 +87,47 @@ namespace Nois.Infrastructure.Services
 
 			if (order.Status == OrderStatus.Paid)
 				return;
+			using var transaction = await _orderRepository.BeginTransactionAsync();
 
-			order.Status = OrderStatus.Paid;
-
-			foreach (var item in order.OrderItems) //ProductStock-un update olub, azaltmaq ucun
+			try
 			{
-				var stock = item.ProductVariant.ProductStock;
+				if (order.Payment != null)
+				{
+					order.Payment.PaidAt = DateTime.UtcNow; // İndi həqiqətən ödənildi
+					order.Payment.IsSuccess = true;
+				}
 
-				if (stock.Quantity < item.Quantity)
-					throw new Exception("Insufficient stock");
+				order.Status = OrderStatus.Paid;
 
-				stock.Quantity -= item.Quantity;
+				foreach (var item in order.OrderItems) //ProductStock-un update olub, azaltmaq ucun
+				{
+					var stock = item.ProductVariant.ProductStock;
+
+					if (stock.Quantity < item.Quantity)
+						throw new Exception("Insufficient stock");
+
+					stock.Quantity -= item.Quantity;
+				}
+
+				if (order.PromoCodeId.HasValue)
+				{
+					var promo = await _promoCodeRepository.GetByIdAsync(order.PromoCodeId.Value);
+					promo.UsedCount++;
+				}
+
+				await _orderRepository.UpdateAsync(order);
+				await _basketRepository.DeleteByBuyerIdAsync(order.BuyerId);
+				await transaction.CommitAsync();
+			}
+			catch (Exception)
+			{
+				// Hər hansı xəta olarsa (məsələn, səbət silinməsə), 
+				// edilən bütün DB dəyişikliklərini (stok, status və s.) geri qaytar
+				await transaction.RollbackAsync();
+				throw;
 			}
 
-			if (order.PromoCodeId.HasValue) 
-			{
-				var promo = await _promoCodeRepository.GetByIdAsync(order.PromoCodeId.Value);
-				promo.UsedCount++;
-			}
-
-			await _orderRepository.UpdateAsync(order);
-			await _basketRepository.DeleteByBuyerIdAsync(order.BuyerId);
 		}
-
 	}
 
 }

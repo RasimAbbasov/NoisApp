@@ -129,6 +129,7 @@ namespace Nois.API
             services.AddScoped<IWishlistRepository, WishlistRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IBasketRepository, BasketRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
 
             //Services
             services.AddScoped<ICategoryService, CategoryService>();

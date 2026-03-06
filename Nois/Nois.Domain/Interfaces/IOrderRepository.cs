@@ -1,4 +1,5 @@
-﻿using Nois.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using Nois.Domain.Entities;
 
 namespace Nois.Domain.Interfaces
 {
@@ -11,6 +12,7 @@ namespace Nois.Domain.Interfaces
         Task<IEnumerable<Order>> GetAllAsync();
         Task AddAsync(Order order);
 		Task UpdateAsync(Order order);
+        Task<IDbContextTransaction> BeginTransactionAsync();
 
 	}
 }
