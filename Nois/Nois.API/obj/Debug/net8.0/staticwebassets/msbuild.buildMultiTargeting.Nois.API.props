@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Nois.API.props" />
-</Project>

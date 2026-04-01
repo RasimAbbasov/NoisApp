@@ -61,7 +61,6 @@ namespace Nois.Application.Services
 			var promoCode = await _genericRepository.GetByIdAsync(id);
 			if (promoCode == null) throw new KeyNotFoundException("Promo code not found.");
 
-			// "Find if ANY record has this code, WHERE the ID is NOT the one I'm currently editing"
 			var exists = await _genericRepository.ExistsAsync(x =>
 				x.Code == updatePromoCodeDto.Code && x.Id != id);
 

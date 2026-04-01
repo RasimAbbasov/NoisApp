@@ -26,8 +26,7 @@ namespace Nois.API.Controllers
 
 			var ratings = await _ratingService.GetByVariantIdAsync(variantId);
 
-			_logger.LogInformation("Ratings fetched for VariantId {VariantId} at {Time}",
-				variantId, DateTime.Now);
+			_logger.LogInformation("Ratings fetched for VariantId {VariantId} at {Time}",variantId, DateTime.Now);
 
 			return Ok(ratings);
 		}

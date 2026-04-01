@@ -12,7 +12,6 @@ namespace Nois.Application.DTOs.ProductDtos
         public double Price { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
-        
         public List<ProductVariantSummaryDto> ProductVariantDtos { get; set; }
     }
 }

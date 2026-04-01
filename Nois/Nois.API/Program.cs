@@ -12,6 +12,7 @@ Log.Logger = new LoggerConfiguration()
 // Replace default .NET logging with Serilog
 builder.Host.UseSerilog();
 
+
 ServiceRegistration.RegisterServices(builder.Services, builder.Configuration);
 
 var app = builder.Build();
@@ -30,6 +31,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseRouting(); // Enables endpoint routing
+
+app.UseCors("AllowReactApp");
 
 app.UseAuthentication();
 app.UseAuthorization();

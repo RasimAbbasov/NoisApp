@@ -24,9 +24,20 @@ namespace Nois.API
     {
         public static void RegisterServices(IServiceCollection services, IConfiguration configuration) 
         {
-            // Add services to the container.
+			// Add services to the container.
 
-            services.AddControllers()
+			services.AddCors(options =>
+			{
+				options.AddPolicy("AllowReactApp",
+					policy =>
+					{
+						policy.WithOrigins("http://localhost:5173") // Your React URL
+							  .AllowAnyHeader()
+							  .AllowAnyMethod();
+					});
+			});
+
+			services.AddControllers()
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateCategoryDtoValidator>());
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -51,7 +62,7 @@ namespace Nois.API
                         Id = "Bearer"
                 }
             },
-            new string[] {}
+             new string[] {}
              }
              });
             });
@@ -59,9 +70,12 @@ namespace Nois.API
             services.AddDbContext<NoisDbContext>(options =>
                        options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddAutoMapper(opt =>
+			string? licenseKey = configuration["AutoMapper:LicenseKey"];
+
+			services.AddAutoMapper(opt =>
             {
-                opt.AddProfile(new MapperProfile());
+				opt.LicenseKey = licenseKey;
+				opt.AddProfile(new MapperProfile());
             });
 
             services.AddIdentity<AppUser, IdentityRole>(opt =>
