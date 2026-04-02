@@ -798,9 +798,9 @@ FodyWeavers.xsd
 
 # ASP.NET Core appsettings files
 
-appsettings.json
-
 appsettings.Production.json
+
+[Aa]ppsettings.[Dd]evelopment.json
 
 
 # Deployment scripts
