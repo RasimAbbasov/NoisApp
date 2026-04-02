@@ -47,6 +47,7 @@ namespace Nois.Infrastructure.Services
             await smtp.SendAsync(email);
             await smtp.DisconnectAsync(true);
         }
+
         public async Task SendPasswordResetEmailAsync(string toEmail, string callbackUrl)
         {
             var email = new MimeMessage();

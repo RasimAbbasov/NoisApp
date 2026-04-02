@@ -31,7 +31,7 @@ namespace Nois.API
 				options.AddPolicy("AllowReactApp",
 					policy =>
 					{
-						policy.WithOrigins("http://localhost:5173") // Your React URL
+						policy.WithOrigins("http://localhost:5173") // React URL
 							  .AllowAnyHeader()
 							  .AllowAnyMethod();
 					});
@@ -40,7 +40,7 @@ namespace Nois.API
 			services.AddControllers()
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateCategoryDtoValidator>());
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+          
             services.AddEndpointsApiExplorer();
 
             services.AddSwaggerGen(c => {
