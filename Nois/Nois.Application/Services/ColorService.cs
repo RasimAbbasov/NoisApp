@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -54,10 +56,25 @@ namespace Nois.Application.Services
 
             return _mapper.Map<ColorSummaryDto>(entity);
         }
+		public async Task<PaginationResult<ColorSummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedColors = await _colorRepository.GetPagedAsync(request);
+
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<ColorSummaryDto>>(pagedColors.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<ColorSummaryDto>(
+				dtoList,
+				pagedColors.Page,
+				pagedColors.PageSize,
+				pagedColors.TotalRecords
+			);
+		}
 
 
-
-        public async Task UpdateAsync(UpdateColorDto updateColorDto)
+		public async Task UpdateAsync(UpdateColorDto updateColorDto)
         {
             if (updateColorDto == null) throw new ArgumentNullException(nameof(updateColorDto));
             var color = await _colorRepository.GetByIdAsync(updateColorDto.Id);

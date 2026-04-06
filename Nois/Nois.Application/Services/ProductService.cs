@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -81,7 +83,26 @@ namespace Nois.Application.Services
 
             return _mapper.Map<ProductDetailDto>(product);
         }
-        public async Task UpdateAsync(UpdateProductDto updateProductDto)
+
+
+		public async Task<PaginationResult<ProductSummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedProducts = await _productRepository.GetPagedAsync(request);
+
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<ProductSummaryDto>>(pagedProducts.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<ProductSummaryDto>(
+				dtoList,
+				pagedProducts.Page,
+				pagedProducts.PageSize,
+				pagedProducts.TotalRecords
+			);
+		}
+
+		public async Task UpdateAsync(UpdateProductDto updateProductDto)
         {
             if (updateProductDto == null)
                 throw new ArgumentNullException(nameof(updateProductDto));

@@ -1,5 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper.QueryableExtensions;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using Nois.Application.DTOs.CategoryDTOs;
+using Nois.Domain.Common;
 using Nois.Domain.Entities.Common;
 using Nois.Domain.Interfaces;
 using Nois.Persistance.Contexts;
@@ -42,13 +45,13 @@ namespace Nois.Persistance.Repositories
 				.ToListAsync();
 		}
 
-
 		public async Task<T?> GetByIdAsync(int id)
         {
             IQueryable<T> query = _dbSet.AsQueryable();
 
             return await query.FirstOrDefaultAsync(e => e.Id == id);
         }
+
 		public async Task<T?> GetAsync(Expression<Func<T, bool>> predicate)
 		{
 			return await _context.Set<T>().FirstOrDefaultAsync(predicate);
@@ -86,12 +89,28 @@ namespace Nois.Persistance.Repositories
             return await _dbSet.AnyAsync(predicate);
         }
 
-
         public async Task<int> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync();
         }
+		public async Task<PaginationResult<T>> GetPagedAsync(PaginationRequest request)
+		{
+			var query = _dbSet.AsNoTracking();
+            
+			var totalRecords = await query.CountAsync();
 
-     
-    }
+			var data = await query
+				.OrderBy(e => EF.Property<object>(e, "Id")) 
+				.Skip((request.Page - 1) * request.PageSize)
+				.Take(request.PageSize)
+				.ToListAsync();
+
+			return new PaginationResult<T>(
+				data,
+				request.Page,
+				request.PageSize,
+				totalRecords
+			);
+		}
+	}
 }

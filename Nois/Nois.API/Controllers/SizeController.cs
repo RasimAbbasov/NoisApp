@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.Interfaces;
+using Nois.Application.Services;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
@@ -14,13 +16,23 @@ namespace Nois.API.Controllers
             _sizeService = SizeService;
             _logger = logger;
         }
-        [HttpGet]
+
+		[HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _sizeService.GetPagedAsync(request);
+			_logger.LogInformation("Size GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+
+		[HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var Sizes = await _sizeService.GetAllAsync();
             _logger.LogInformation("Size GetAll endpoint called at {Time}", DateTime.Now);
             return Ok(Sizes);
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {

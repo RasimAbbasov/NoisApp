@@ -1,4 +1,5 @@
-﻿using Nois.Domain.Entities;
+﻿using Nois.Domain.Common;
+using Nois.Domain.Entities;
 
 namespace Nois.Domain.Interfaces
 {
@@ -6,5 +7,7 @@ namespace Nois.Domain.Interfaces
     {
         Task<List<ProductVariant>> GetAllWithIncludes();
         Task<ProductVariant?> GetByIdWithIncludes(int id);
-    }
+		Task<PaginationResult<ProductVariant>> GetPagedAsync(PaginationRequest request);
+
+	}
 }

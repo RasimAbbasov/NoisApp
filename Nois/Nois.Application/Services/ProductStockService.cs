@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -57,8 +59,23 @@ namespace Nois.Application.Services
            if(productStock == null) throw new KeyNotFoundException("ProductStock not found.");
             return _mapper.Map<ProductStockSummaryDto>(productStock);
         }
+		public async Task<PaginationResult<ProductStockSummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedProductStocks = await _productStockRepository.GetPagedAsync(request);
 
-        public async Task UpdateAsync(UpdateProductStockDto updateProductStockDto)
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<ProductStockSummaryDto>>(pagedProductStocks.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<ProductStockSummaryDto>(
+				dtoList,
+				pagedProductStocks.Page,
+				pagedProductStocks.PageSize,
+				pagedProductStocks.TotalRecords
+			);
+		}
+		public async Task UpdateAsync(UpdateProductStockDto updateProductStockDto)
         {
                 if (updateProductStockDto == null)
                     throw new ArgumentNullException(nameof(updateProductStockDto));

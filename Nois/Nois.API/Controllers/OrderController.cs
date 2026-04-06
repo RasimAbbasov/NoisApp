@@ -4,30 +4,44 @@ using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.OrderDtos;
 using Nois.Application.Interfaces;
 using Nois.Application.Services;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
     public class OrderController : BaseController
     {
         private readonly IOrderService _orderService;
+		private readonly ILogger<OrderController> _logger;
 
-        public OrderController(IOrderService orderService)
+		public OrderController(IOrderService orderService,ILogger<OrderController> logger)
         {
             _orderService = orderService;
+			_logger = logger;
         }
 
-        [HttpGet("admin/orders")]
+		[HttpGet("admin/orders")]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _orderService.GetPagedAsync(request);
+			_logger.LogInformation("Orders GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+
+		[HttpGet("admin/orders/all")]
         //[Authorize(Roles = "Admin")] // Critical: Restrict to Admins
         public async Task<ActionResult<List<OrderAdminDto>>> GetAllOrders()
         {
             var orders = await _orderService.GetAllOrdersAsync();
-            return Ok(orders);
+			_logger.LogInformation("Orders GetAll endpoint called at {Time}", DateTime.Now);
+			return Ok(orders);
         }
+
 		[HttpGet("admin/{userId}/orders")]
 		//[Authorize(Roles = "Admin")] // Critical: Restrict to Admins
 		public async Task<ActionResult<List<OrderAdminDto>>> GetOrders(string userId)
 		{
 			var orders = await _orderService.GetOrderByUserAsync(userId);
+			_logger.LogInformation("Orders Get endpoint called at {Time}", DateTime.Now);
 			return Ok(orders);
 		}
 

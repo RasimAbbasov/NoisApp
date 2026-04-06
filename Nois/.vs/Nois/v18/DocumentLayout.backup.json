@@ -3,44 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\productvariantratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productvariantratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\productvariantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productvariantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\isizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\productstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\productstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\productstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,60 +83,104 @@
       "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iproductstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iproductstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productvariantratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productvariantratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productvariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productvariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\productvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\productvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\productvariantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productvariantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\productvariantratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\productvariantratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\extensions\\paginationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\extensions\\paginationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\contexts\\noisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\productvariantratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\productvariantratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.api\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C637D49-C356-4912-A9D7-2E7BBFE77F1C}|Nois.API\\Nois.API.csproj|solutionrelative:nois.api\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\promocodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\promocodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{556A4440-A4FD-4C9E-983A-A125EEC4E2CE}|Nois.Infrastructure\\Nois.Infrastructure.csproj|solutionrelative:nois.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|solutionrelative:nois.application\\services\\sizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DECE12D-19DD-41E9-BB80-5C303F0957DE}|Nois.Application\\Nois.Application.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.application\\dtos\\productdtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,36 +219,12 @@
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductvariantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.persistance\\repositories\\productstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0B2C94-4B40-49EF-9107-F6FCDFEEA8F3}|Nois.Persistance\\Nois.Persistance.csproj|solutionrelative:nois.persistance\\repositories\\productstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|c:\\users\\abbasov\\c# projects\\noisapp\\noisapp\\nois\\nois.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C06100-93D0-4FFE-9827-C75A586B1054}|Nois.Domain\\Nois.Domain.csproj|solutionrelative:nois.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,32 +250,498 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IOrderService.cs*",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:08:43.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IOrderRepository.cs*",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IOrderRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:08:22.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Nois.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
-              "RelativeToolTip": "Nois.API\\appsettings.json",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowC4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-02T12:27:23.319Z",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "Nois.API\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T13:25:53.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs*",
+              "RelativeToolTip": "Nois.Application\\Services\\OrderService.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T11:27:40.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:31:17.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ColorController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ColorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:31:33.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs*",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\OrderRepository.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowEAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:56:14.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:36:57.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:31:39.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WishlistRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\WishlistRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\WishlistRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\WishlistRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\WishlistRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:45:55.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:46:12.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\SizeController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\SizeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:44:18.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ISizeService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\ISizeService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\ISizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:44:07.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:49:10.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:30:15.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\SizeService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\SizeService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\SizeService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\SizeService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:29:06.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswCgAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:47:22.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:30:22.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductStockController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductStockController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductStockController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:32:04.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:31:44.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductStockService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductStockService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductStockService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:38:41.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:30:13.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:44:08.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProductVariantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:49:09.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwHEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T11:57:44.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IColorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\IColorService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\IColorService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\IColorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:27:46.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "Nois.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:27:51.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:30:36.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductVariantService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:30:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductVariantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductVariantRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:12:56.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
+              "RelativeToolTip": "Nois.API\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:38:46.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:43:51.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductVariantController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
+              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductVariantController.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
+              "RelativeToolTip": "Nois.API\\Controllers\\ProductVariantController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:32:01.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductVariantRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantRatingService.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantRatingService.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantRatingService.cs",
+              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:30:13.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PaginationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Extensions\\PaginationExtensions.cs",
+              "RelativeDocumentMoniker": "Nois.Application\\Extensions\\PaginationExtensions.cs",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Extensions\\PaginationExtensions.cs",
+              "RelativeToolTip": "Nois.Application\\Extensions\\PaginationExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T14:36:43.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Nois.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.json",
+              "RelativeToolTip": "Nois.API\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-02T12:27:23.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Nois.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.Development.json",
+              "RelativeToolTip": "Nois.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T14:29:19.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "NoisDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
               "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Contexts\\NoisDbContext.cs",
               "RelativeToolTip": "Nois.Persistance\\Contexts\\NoisDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T12:22:26.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 38,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\EmailService.cs",
@@ -239,55 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Nois.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\appsettings.Development.json",
-              "RelativeToolTip": "Nois.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-01T14:29:19.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Program.cs",
-              "RelativeToolTip": "Nois.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:38:46.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Nois.API\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\ServiceRegistration.cs",
-              "RelativeToolTip": "Nois.API\\ServiceRegistration.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwEUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:58:00.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:31:44.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 39,
               "Title": "ProductVariantRatingController.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductVariantRatingController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductVariantRatingController.cs",
@@ -299,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 40,
               "Title": "BasketController.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\BasketController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\BasketController.cs",
@@ -311,55 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T13:25:53.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductVariantController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductVariantController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductVariantController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductVariantController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:32:01.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductStockController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ProductStockController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ProductStockController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ProductStockController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:32:04.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\ColorController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\ColorController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\ColorController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:31:33.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 42,
               "Title": "PromoCodeController.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PromoCodeController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\PromoCodeController.cs",
@@ -371,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 41,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "Nois.API\\Controllers\\PaymentsController.cs",
@@ -379,107 +797,12 @@
               "RelativeToolTip": "Nois.API\\Controllers\\PaymentsController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAewDYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T11:56:12.939Z"
+              "WhenOpened": "2026-03-05T11:56:12.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Nois.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Nois.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:31:17.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:30:36.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ColorService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ColorService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ColorService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ColorService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:30:22.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductStockService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductStockService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductStockService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductStockService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:30:15.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductVariantRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantRatingService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantRatingService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantRatingService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantRatingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:30:13.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductVariantService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductVariantService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductVariantService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductVariantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:30:11.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SizeService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\SizeService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\SizeService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\SizeService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\SizeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:29:06.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:36:57.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 45,
               "Title": "ProductDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductDetailDto.cs",
@@ -491,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 46,
               "Title": "ProductSummaryDto.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
               "RelativeDocumentMoniker": "Nois.Application\\DTOs\\ProductDtos\\ProductSummaryDto.cs",
@@ -503,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "PromoCodeService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\PromoCodeService.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Services\\PromoCodeService.cs",
@@ -511,11 +834,12 @@
               "RelativeToolTip": "Nois.Application\\Services\\PromoCodeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T12:03:31.393Z"
+              "WhenOpened": "2026-03-05T12:03:31.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 44,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Infrastructure\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Nois.Infrastructure\\Services\\PaymentService.cs",
@@ -523,23 +847,12 @@
               "RelativeToolTip": "Nois.Infrastructure\\Services\\PaymentService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:42:17.081Z"
+              "WhenOpened": "2026-03-04T14:42:17.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Nois.Application\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Services\\OrderService.cs",
-              "RelativeToolTip": "Nois.Application\\Services\\OrderService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAWwFYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T11:27:40.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 47,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Application\\Profiles\\MapperProfile.cs",
               "RelativeDocumentMoniker": "Nois.Application\\Profiles\\MapperProfile.cs",
@@ -551,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 48,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Product.cs",
@@ -563,19 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAkwEcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T10:56:14.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 52,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\Payment.cs",
@@ -587,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 51,
               "Title": "BasketRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\BasketRepository.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\BasketRepository.cs",
@@ -595,11 +896,12 @@
               "RelativeToolTip": "Nois.Persistance\\Repositories\\BasketRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAWwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:47:26.564Z"
+              "WhenOpened": "2026-03-04T14:47:26.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 49,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\PaymentRepository.cs",
@@ -611,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 50,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Entities\\OrderItem.cs",
@@ -623,31 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswEAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:47:27.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:43:51.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 53,
               "Title": "IPaymentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IPaymentRepository.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IPaymentRepository.cs",
@@ -659,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "IBasketRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IBasketRepository.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IBasketRepository.cs",
@@ -671,31 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IProductStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductStockRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:49:10.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IProductVariantRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductVariantRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:49:09.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 55,
               "Title": "IWishlistRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IWishlistRepository.cs",
               "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IWishlistRepository.cs",
@@ -704,30 +958,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T14:49:09.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ProductStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "RelativeToolTip": "Nois.Persistance\\Repositories\\ProductStockRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:47:22.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Abbasov\\C# Projects\\NoisApp\\NoisApp\\Nois\\Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Nois.Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:44:08.429Z"
             }
           ]
         }

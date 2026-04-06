@@ -4,6 +4,7 @@ using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.Interfaces;
 using Nois.Application.Services;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
@@ -17,15 +18,16 @@ namespace Nois.API.Controllers
             _colorService = colorService;
             _logger = logger;
         }
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {  
-            var colors = await _colorService.GetAllAsync();
-            _logger.LogInformation("Color GetAll endpoint called at {Time}", DateTime.Now);
-            return Ok(colors);
+        
+		[HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _colorService.GetPagedAsync(request);
+			_logger.LogInformation("Color GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
 
-        }
-        [HttpGet("{id}")]
+		[HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
             if (id <= 0)
@@ -35,7 +37,16 @@ namespace Nois.API.Controllers
             if (color == null) return NotFound();
             return Ok(color);
         }
-        [HttpPost]
+
+		[HttpGet("all")]
+		public async Task<IActionResult> GetAll()
+		{
+			var colors = await _colorService.GetAllAsync();
+			_logger.LogInformation("Color GetAll endpoint called at {Time}", DateTime.Now);
+			return Ok(colors);
+
+		}
+		[HttpPost]
         public async Task<IActionResult> Create(CreateColorDto createColorDto)
         {
             await _colorService.CreateAsync(createColorDto);

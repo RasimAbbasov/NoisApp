@@ -1,4 +1,5 @@
 ﻿using Nois.Application.DTOs.SizeDtos;
+using Nois.Domain.Common;
 
 namespace Nois.Application.Interfaces
 {
@@ -6,7 +7,8 @@ namespace Nois.Application.Interfaces
     {
         Task<List<SizeSummaryDto>> GetAllAsync();
         Task<SizeSummaryDto> GetByIdAsync(int id);
-        Task CreateAsync(CreateSizeDto createSizeDto);
+        Task<PaginationResult<SizeSummaryDto>> GetPagedAsync(PaginationRequest request);
+		Task CreateAsync(CreateSizeDto createSizeDto);
         Task UpdateAsync(UpdateSizeDto updateSizeDto);
         Task DeleteAsync(int id);
     }

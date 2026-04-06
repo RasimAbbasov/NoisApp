@@ -3,6 +3,7 @@ using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -61,7 +62,24 @@ namespace Nois.Application.Services
             return _mapper.Map<CategorySummaryDto>(category);
         }
 
-        public async Task UpdateAsync(UpdateCategoryDto updateCategoryDto)
+		public async Task<PaginationResult<CategorySummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedCategories = await _categoryRepository.GetPagedAsync(request);
+
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<CategorySummaryDto>>(pagedCategories.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<CategorySummaryDto>(
+				dtoList,
+				pagedCategories.Page,
+				pagedCategories.PageSize,
+				pagedCategories.TotalRecords
+			);
+		}
+
+		public async Task UpdateAsync(UpdateCategoryDto updateCategoryDto)
         {
             if(updateCategoryDto == null) throw new ArgumentNullException(nameof(updateCategoryDto));
             var category = await _categoryRepository.GetByIdAsync(updateCategoryDto.Id);

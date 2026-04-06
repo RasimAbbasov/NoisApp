@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using Nois.Application.DTOs.OrderDtos;
+using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.PromoCodeDtos;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Entities.Enums;
 using Nois.Domain.Interfaces;
@@ -34,6 +36,22 @@ namespace Nois.Application.Services
 		{
 			var orders = await _orderRepository.GetByBuyerIdAsync(UserId);
 			return _mapper.Map<List<OrderAdminDto>>(orders);
+		}
+		public async Task<PaginationResult<OrderAdminDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedOrders = await _orderRepository.GetPagedAsync(request);
+
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<OrderAdminDto>>(pagedOrders.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<OrderAdminDto>(
+				dtoList,
+				pagedOrders.Page,
+				pagedOrders.PageSize,
+				pagedOrders.TotalRecords
+			);
 		}
 		public async Task<OrderDto> CreateOrderAsync(CreateOrderRequestDto request)
         {

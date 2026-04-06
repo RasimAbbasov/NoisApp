@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -67,8 +69,24 @@ namespace Nois.Application.Services
             if (productVariant == null) throw new KeyNotFoundException($"Item with id {id} not found");
             return _mapper.Map<ProductVariantSummaryDto>(productVariant);
         }
+		public async Task<PaginationResult<ProductVariantSummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedProductVariants = await _productVariantRepository.GetPagedAsync(request);
 
-        public async Task UpdateAsync(UpdateProductVariantDto updateProductVariantDto)
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<ProductVariantSummaryDto>>(pagedProductVariants.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<ProductVariantSummaryDto>(
+				dtoList,
+				pagedProductVariants.Page,
+				pagedProductVariants.PageSize,
+				pagedProductVariants.TotalRecords
+			);
+		}
+
+		public async Task UpdateAsync(UpdateProductVariantDto updateProductVariantDto)
         {
             if (updateProductVariantDto == null)
                 throw new ArgumentNullException(nameof(updateProductVariantDto));

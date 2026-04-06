@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 using Nois.Persistance.Contexts;
@@ -61,6 +62,26 @@ namespace Nois.Persistance.Repositories
                 .AsNoTracking()
                 .ToListAsync();
         }
+		public async Task<PaginationResult<Order>> GetPagedAsync(PaginationRequest request)
+		{
+			var query = _context.Orders.AsNoTracking();
+
+			var totalRecords = await query.CountAsync();
+
+			var data = await query
+				.Include(x => x.User)
+				.OrderBy(e => EF.Property<object>(e, "Id"))
+				.Skip((request.Page - 1) * request.PageSize)
+				.Take(request.PageSize)
+				.ToListAsync();
+
+			return new PaginationResult<Order>(
+				data,
+				request.Page,
+				request.PageSize,
+				totalRecords
+			);
+		}
 		public async Task UpdateAsync(Order order)
 		{
 			_context.Orders.Update(order);

@@ -1,4 +1,6 @@
-﻿using Nois.Application.DTOs.ProductDtos;
+﻿using Nois.Application.DTOs.ColorDtos;
+using Nois.Application.DTOs.ProductDtos;
+using Nois.Domain.Common;
 
 namespace Nois.Application.Interfaces
 {
@@ -8,7 +10,8 @@ namespace Nois.Application.Interfaces
         Task<List<ProductDetailDto>> GetAllWithDetails();
         Task<ProductSummaryDto> GetByIdAsync(int id);
         Task<ProductDetailDto> GetByIdWithDetailsAsync(int id);
-        Task CreateAsync(CreateProductDto createProductDto);
+		Task<PaginationResult<ProductSummaryDto>> GetPagedAsync(PaginationRequest request);
+		Task CreateAsync(CreateProductDto createProductDto);
         Task UpdateAsync(UpdateProductDto updateProductDto);
         Task DeleteAsync(int id);
     }

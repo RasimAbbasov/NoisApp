@@ -1,4 +1,5 @@
-﻿using Nois.Domain.Entities.Common;
+﻿using Nois.Domain.Common;
+using Nois.Domain.Entities.Common;
 using System.Linq.Expressions;
 
 namespace Nois.Domain.Interfaces
@@ -21,5 +22,6 @@ namespace Nois.Domain.Interfaces
         Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate);
 		Task<T?> GetAsync(Expression<Func<T, bool>> predicate);
 		Task<int> SaveChangesAsync(); // In case you're batching operations (recommended)
-    }
+		Task<PaginationResult<T>> GetPagedAsync(PaginationRequest request);
+	}
 }

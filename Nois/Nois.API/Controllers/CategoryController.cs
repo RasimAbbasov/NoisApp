@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 
 
 namespace Nois.API.Controllers
@@ -16,7 +17,7 @@ namespace Nois.API.Controllers
             _categoryService = categoryService;
             _logger = logger;
         }
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var categories = await _categoryService.GetAllAsync();
@@ -25,7 +26,7 @@ namespace Nois.API.Controllers
 
         }
         [HttpGet("{id}")]
-         public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
             if (id <= 0)
                 throw new ArgumentException(nameof(id), "Id must be greater than zero.");
@@ -35,7 +36,15 @@ namespace Nois.API.Controllers
             if (category == null) return NotFound();
             return Ok(category);
         }
-        [HttpPost]
+        [HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _categoryService.GetPagedAsync(request);
+			_logger.LogInformation("Category GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+
+		[HttpPost]
         public async Task<IActionResult> Create(CreateCategoryDto createCategoryDto)
         {
             await _categoryService.CreateAsync(createCategoryDto);

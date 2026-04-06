@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using Nois.Application.DTOs.CategoryDtos;
 using Nois.Application.DTOs.CategoryDTOs;
+using Nois.Application.DTOs.ColorDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.Exceptions;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 using Nois.Domain.Entities;
 using Nois.Domain.Interfaces;
 
@@ -31,7 +33,23 @@ namespace Nois.Application.Services
 
             return _mapper.Map<SizeSummaryDto>(size);
         }
-        public async Task CreateAsync(CreateSizeDto createSizeDto)
+		public async Task<PaginationResult<SizeSummaryDto>> GetPagedAsync(PaginationRequest request)
+		{
+			// Get paginated entities from repository
+			var pagedSizes = await _sizeRepository.GetPagedAsync(request);
+
+			// Map entities → DTOs
+			var dtoList = _mapper.Map<List<SizeSummaryDto>>(pagedSizes.Items);
+
+			// Return paginated DTO result
+			return new PaginationResult<SizeSummaryDto>(
+				dtoList,
+				pagedSizes.Page,
+				pagedSizes.PageSize,
+				pagedSizes.TotalRecords
+			);
+		}
+		public async Task CreateAsync(CreateSizeDto createSizeDto)
         {
             if (createSizeDto == null)
                 throw new ArgumentNullException(nameof(createSizeDto));

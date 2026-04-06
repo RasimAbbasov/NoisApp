@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.ProductStockDtos;
 using Nois.Application.Interfaces;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
@@ -14,7 +15,14 @@ namespace Nois.API.Controllers
             _productStockService = productStockService;
             _logger = logger;
         }
-        [HttpGet]
+		[HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _productStockService.GetPagedAsync(request);
+			_logger.LogInformation("ProductStock GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+		[HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var productStocks = await _productStockService.GetAllAsync();

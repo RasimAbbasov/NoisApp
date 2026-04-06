@@ -2,6 +2,8 @@
 using Nois.Application.DTOs.ProductDtos;
 using Nois.Application.DTOs.SizeDtos;
 using Nois.Application.Interfaces;
+using Nois.Application.Services;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
@@ -16,7 +18,15 @@ namespace Nois.API.Controllers
             _productService = productService;
             _logger = logger;
         }
-        [HttpGet]
+		[HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _productService.GetPagedAsync(request);
+			_logger.LogInformation("Product GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+
+		[HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var products = await _productService.GetAllAsync();

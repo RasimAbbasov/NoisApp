@@ -1,4 +1,5 @@
 ﻿using Nois.Application.DTOs.ProductVariantDtos;
+using Nois.Domain.Common;
 
 namespace Nois.Application.Interfaces
 {
@@ -6,7 +7,8 @@ namespace Nois.Application.Interfaces
     {
         Task<List<ProductVariantSummaryDto>> GetAllAsync();
         Task<ProductVariantSummaryDto> GetByIdAsync(int id);
-        Task CreateAsync(CreateProductVariantDto createProductVariantDto);
+		Task<PaginationResult<ProductVariantSummaryDto>> GetPagedAsync(PaginationRequest request);
+		Task CreateAsync(CreateProductVariantDto createProductVariantDto);
         Task UpdateAsync(UpdateProductVariantDto updateProductVariantDto);
         Task DeleteAsync(int id);
     }

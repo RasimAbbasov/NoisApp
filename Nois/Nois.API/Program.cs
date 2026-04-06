@@ -1,6 +1,7 @@
 ﻿using Nois.API;
 using Nois.Application.Exceptions;
 using Nois.Infrastructure.Services;
+using Nois.Persistance.Contexts;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -45,5 +46,15 @@ app.MapControllers();
 //    var services = scope.ServiceProvider;
 //    await RoleSeeder.SeedRolesAsync(services);
 //}
+
+//During Integration Testing: If you have hundreds of tests that spin up the app, adding 4 seconds to every startup will make your tests slow.
+
+//Temporary solve of reducing first run time 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<NoisDbContext>();
+    // This forces EF Core to build the entire model and cache it
+    _ = context.Model;
+}
 
 app.Run();

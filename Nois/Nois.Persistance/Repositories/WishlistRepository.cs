@@ -23,6 +23,7 @@ namespace Nois.Persistance.Repositories
                 .Include(x => x.Product)
                 .ToListAsync();
         }
+
         public async Task RemoveAsync(string userId, int productId)
         {
             var item = await _context.Wishlists

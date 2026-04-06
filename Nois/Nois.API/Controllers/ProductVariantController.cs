@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Nois.Application.DTOs.ProductVariantDtos;
 using Nois.Application.Interfaces;
+using Nois.Application.Services;
+using Nois.Domain.Common;
 
 namespace Nois.API.Controllers
 {
@@ -14,7 +16,7 @@ namespace Nois.API.Controllers
             _productVariantService = productVariantService;
             _logger = logger;
         }
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var productVariants = await _productVariantService.GetAllAsync();
@@ -30,7 +32,14 @@ namespace Nois.API.Controllers
             _logger.LogInformation("ProductVariant Get endpoint called at {Time}", DateTime.Now);
             return Ok(productVariants);
         }
-        [HttpPost]
+		[HttpGet]
+		public async Task<IActionResult> GetPaged([FromQuery] PaginationRequest request)
+		{
+			var result = await _productVariantService.GetPagedAsync(request);
+			_logger.LogInformation("ProductVariant GetPaged endpoint called at {Time}", DateTime.Now);
+			return Ok(result);
+		}
+		[HttpPost]
         public async Task<IActionResult> Create(CreateProductVariantDto createProductVariantDto)
         {
             await _productVariantService.CreateAsync(createProductVariantDto);
