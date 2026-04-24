@@ -163,6 +163,7 @@ namespace Nois.API
 			services.AddScoped<IPaymentService, PaymentService>();
             services.AddScoped<IProductVariantRatingService, ProductVariantRatingService>();
             services.AddScoped<IPromoCodeService, PromoCodeService>();
+            services.AddHttpClient<IChatbotService, GeminiChatbotService>();
 		}
 	}
 }
